@@ -1,0 +1,44 @@
+match_date,player_1,player_2,duration,match_round,player_1_scores,player_2_scores,winner,result,match_id,tournament_id,stats_link
+Final,Benjamin Bonzi,Cameron Norrie,01:55,Finals,7 6,6(6) 4,Benjamin Bonzi,Completed,ms001,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms001
+Semifinal,Benjamin Bonzi,Alex Michelsen,02:01,Semi-Finals,4 6 7,6 0 5,Benjamin Bonzi,Completed,ms003,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms003
+Semifinal,Cameron Norrie,Corentin Moutet,01:32,Semi-Finals,6 7,2 6(5),Cameron Norrie,Completed,ms002,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms002
+Quarterfinal,Corentin Moutet,Andrey Rublev,00:00,Quarter-Finals,,,Corentin Moutet,Completed,,341,
+Quarterfinal,Alex Michelsen,Yunchaokete Bu,02:22,Quarter-Finals,6(6) 6 6,7 2 4,Alex Michelsen,Completed,ms006,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms006
+Quarterfinal,Benjamin Bonzi,Quentin Halys,01:18,Quarter-Finals,6 7,3 6(1),Benjamin Bonzi,Completed,ms007,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms007
+Quarterfinal,Cameron Norrie,Zizou Bergs,02:08,Quarter-Finals,6 6(6) 6,3 7 1,Cameron Norrie,Completed,ms005,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms005
+Round of 16,Andrey Rublev,Lorenzo Sonego,01:52,Round of 16,7 7,6(3) 5,Andrey Rublev,Completed,ms008,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms008
+Round of 16,Benjamin Bonzi,Casper Ruud,01:17,Round of 16,6 6,4 4,Benjamin Bonzi,Completed,ms015,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms015
+Round of 16,Corentin Moutet,Jan-Lennard Struff,02:34,Round of 16,7 5 6,6(2) 7 3,Corentin Moutet,Completed,ms009,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms009
+Round of 16,Alex Michelsen,Richard Gasquet,02:44,Round of 16,6(4) 7 7,7 6(3) 6(8),Alex Michelsen,Completed,ms012,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms012
+Round of 16,Zizou Bergs,Hugo Gaston,01:18,Round of 16,6 7,4 5,Zizou Bergs,Completed,ms011,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms011
+Round of 16,Yunchaokete Bu,Jesper de Jong,01:41,Round of 16,6 7,4 6(1),Yunchaokete Bu,Completed,ms013,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms013
+Round of 16,Quentin Halys,Pierre-Hugues Herbert,02:09,Round of 16,6 4 6,1 6 4,Quentin Halys,Completed,ms014,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms014
+Round of 16,Cameron Norrie,Luca Van Assche,01:53,Round of 16,6 3 6,3 6 1,Cameron Norrie,Completed,ms010,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms010
+Round of 32,Andrey Rublev,Bye,00:00,Round of 32,,,Andrey Rublev,Completed,,341,
+Round of 32,Casper Ruud,Bye,00:00,Round of 32,,,Casper Ruud,Completed,,341,
+Round of 32,Pierre-Hugues Herbert,Pedro Martinez,02:32,Round of 32,6 3 7,3 6 6(4),Pierre-Hugues Herbert,Completed,ms028,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms028
+Round of 32,Jan-Lennard Struff,Alexander Shevchenko,01:42,Round of 32,3 6 6,6 4 4,Jan-Lennard Struff,Completed,ms019,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms019
+Round of 32,Alex Michelsen,Harold Mayot,01:17,Round of 32,6 6,3 1,Alex Michelsen,Completed,ms024,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms024
+Round of 32,Zizou Bergs,Manuel Guinard,01:22,Round of 32,6 6,4 4,Zizou Bergs,Completed,ms022,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms022
+Round of 32,Benjamin Bonzi,Roberto Bautista Agut,01:39,Round of 32,7 6,6(3) 3,Benjamin Bonzi,Completed,ms030,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms030
+Round of 32,Yunchaokete Bu,Adrian Mannarino,01:36,Round of 32,7 6,6(4) 4,Yunchaokete Bu,Completed,ms026,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms026
+Round of 32,Jesper de Jong,Bye,00:00,Round of 32,,,Jesper de Jong,Completed,,341,
+Round of 32,Richard Gasquet,Thiago Monteiro,02:20,Round of 32,4 6 7,6 4 6(6),Richard Gasquet,Completed,ms025,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms025
+Round of 32,Hugo Gaston,Titouan Droguet,02:03,Round of 32,7 4 6,6(6) 6 3,Hugo Gaston,Completed,ms023,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms023
+Round of 32,Quentin Halys,Theo Papamalamis,01:04,Round of 32,6 6,3 1,Quentin Halys,Completed,ms029,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms029
+Round of 32,Corentin Moutet,Sumit Nagal,01:38,Round of 32,7 4,5 0,Corentin Moutet,Completed,ms018,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms018
+Round of 32,Cameron Norrie,Roberto Carballes Baena,02:17,Round of 32,3 6 6,6 4 3,Cameron Norrie,Completed,ms021,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms021
+Round of 32,Lorenzo Sonego,Gregoire Barrere,01:35,Round of 32,6 7,4 5,Lorenzo Sonego,Completed,ms017,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/ms017
+Round of 32,Luca Van Assche,Bye,00:00,Round of 32,,,Luca Van Assche,Completed,,341,
+2nd Round Qualifying,Arthur Cazaux,Pierre-Hugues Herbert,02:02,2nd Round Qualifying,6 4 6,0 6 3,Arthur Cazaux,Completed,qs004,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs004
+2nd Round Qualifying,Quentin Halys,Gregoire Barrere,01:17,2nd Round Qualifying,6 6,4 2,Quentin Halys,Completed,qs005,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs005
+2nd Round Qualifying,Jesper de Jong,Titouan Droguet,02:19,2nd Round Qualifying,6 4 7,2 6 6(5),Jesper de Jong,Completed,qs007,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs007
+2nd Round Qualifying,Benjamin Bonzi,Manuel Guinard,01:13,2nd Round Qualifying,6 6,2 3,Benjamin Bonzi,Completed,qs006,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs006
+1st Round Qualifying,Arthur Cazaux,Ugo Blanchet,02:14,1st Round Qualifying,6 6(7) 6,2 7 2,Arthur Cazaux,Completed,qs008,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs008
+1st Round Qualifying,Quentin Halys,Matteo Martineau,01:06,1st Round Qualifying,6 6,3 4,Quentin Halys,Completed,qs010,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs010
+1st Round Qualifying,Manuel Guinard,Alexander Ritschard,01:06,1st Round Qualifying,6 6,2 2,Manuel Guinard,Completed,qs012,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs012
+1st Round Qualifying,Jesper de Jong,Theo Papamalamis,01:52,1st Round Qualifying,6 6,2 3,Jesper de Jong,Completed,qs014,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs014
+1st Round Qualifying,Titouan Droguet,Billy Harris,02:08,1st Round Qualifying,6 3 6,4 6 4,Titouan Droguet,Completed,qs015,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs015
+1st Round Qualifying,Gregoire Barrere,Luca Van Assche,01:09,1st Round Qualifying,6 6,3 4,Gregoire Barrere,Completed,qs011,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs011
+1st Round Qualifying,Pierre-Hugues Herbert,Robin Bertrand,02:04,1st Round Qualifying,4 6 6,6 2 4,Pierre-Hugues Herbert,Completed,qs009,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs009
+1st Round Qualifying,Benjamin Bonzi,Marc-Andrea Huesler,01:20,1st Round Qualifying,6 7,1 6(4),Benjamin Bonzi,Completed,qs013,341,https://www.atptour.com//en/scores/stats-centre/archive/2024/341/qs013

@@ -1,0 +1,44 @@
+match_date,player_1,player_2,duration,match_round,player_1_scores,player_2_scores,winner,result,match_id,tournament_id,stats_link
+Final,Karen Khachanov,Gabriel Diallo,02:23,Finals,6 5 6,2 7 3,Karen Khachanov,Completed,ms001,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms001
+Semifinal,Karen Khachanov,Aleksandar Vukic,02:14,Semi-Finals,6(3) 6 6,7 3 4,Karen Khachanov,Completed,ms002,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms002
+Semifinal,Gabriel Diallo,Francisco Cerundolo,01:08,Semi-Finals,6 6,4 2,Gabriel Diallo,Completed,ms003,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms003
+Quarterfinal,Aleksandar Vukic,Frances Tiafoe,01:29,Quarter-Finals,6 7,2 6(11),Aleksandar Vukic,Completed,ms004,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms004
+Quarterfinal,Gabriel Diallo,Alejandro Tabilo,01:59,Quarter-Finals,3 6 6,6 3 4,Gabriel Diallo,Completed,ms007,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms007
+Quarterfinal,Karen Khachanov,Beibit Zhukayev,01:23,Quarter-Finals,6 6,2 4,Karen Khachanov,Completed,ms005,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms005
+Quarterfinal,Francisco Cerundolo,Alexander Shevchenko,01:05,Quarter-Finals,6 6,2 3,Francisco Cerundolo,Completed,ms006,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms006
+Round of 16,Frances Tiafoe,Daniel Evans,02:39,Round of 16,6(10) 7 6,7 6(4) 3,Frances Tiafoe,Completed,ms008,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms008
+Round of 16,Alejandro Tabilo,Maximilian Marterer,01:05,Round of 16,6 6,2 4,Alejandro Tabilo,Completed,ms015,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms015
+Round of 16,Karen Khachanov,Otto Virtanen,01:36,Round of 16,7 7,6(2) 6(3),Karen Khachanov,Completed,ms010,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms010
+Round of 16,Francisco Cerundolo,Justin Engel,01:30,Round of 16,6 7,4 6(3),Francisco Cerundolo,Completed,ms013,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms013
+Round of 16,Beibit Zhukayev,Tomas Machac,00:17,Round of 16,3,1,Beibit Zhukayev,Completed,ms011,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms011
+Round of 16,Aleksandar Vukic,Adrian Mannarino,01:35,Round of 16,7 6,6(4) 3,Aleksandar Vukic,Completed,ms009,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms009
+Round of 16,Gabriel Diallo,Borna Coric,01:44,Round of 16,7 6,6(1) 4,Gabriel Diallo,Completed,ms014,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms014
+Round of 16,Alexander Shevchenko,Aslan Karatsev,02:21,Round of 16,6 6(5) 7,1 7 5,Alexander Shevchenko,Completed,ms012,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms012
+Round of 32,Frances Tiafoe,Bye,00:00,Round of 32,,,Frances Tiafoe,Completed,,9410,
+Round of 32,Alejandro Tabilo,Bye,00:00,Round of 32,,,Alejandro Tabilo,Completed,,9410,
+Round of 32,Karen Khachanov,Bye,00:00,Round of 32,,,Karen Khachanov,Completed,,9410,
+Round of 32,Francisco Cerundolo,Bye,00:00,Round of 32,,,Francisco Cerundolo,Completed,,9410,
+Round of 32,Tomas Machac,Timofey Skatov,01:20,Round of 32,6 6,3 4,Tomas Machac,Completed,ms023,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms023
+Round of 32,Aslan Karatsev,Zhizhen Zhang,01:31,Round of 32,6 7,4 6(2),Aslan Karatsev,Completed,ms024,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms024
+Round of 32,Borna Coric,Fabian Marozsan,01:52,Round of 32,6 7,4 6(4),Borna Coric,Completed,ms028,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms028
+Round of 32,Adrian Mannarino,Roman Safiullin,02:46,Round of 32,5 7 6,7 6(4) 3,Adrian Mannarino,Completed,ms019,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms019
+Round of 32,Gabriel Diallo,Christopher O'Connell,01:37,Round of 32,7 6,6(5) 2,Gabriel Diallo,Completed,ms029,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms029
+Round of 32,Justin Engel,Coleman Wong,01:34,Round of 32,7 6,5 4,Justin Engel,Completed,ms026,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms026
+Round of 32,Daniel Evans,Taro Daniel,01:52,Round of 32,6 7,2 6(4),Daniel Evans,Completed,ms017,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms017
+Round of 32,Maximilian Marterer,Damir Dzumhur,01:21,Round of 32,7 6,5 4,Maximilian Marterer,Completed,ms030,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms030
+Round of 32,Alexander Shevchenko,Mikhail Kukushkin,02:22,Round of 32,7 7,6(5) 6(4),Alexander Shevchenko,Completed,ms025,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms025
+Round of 32,Otto Virtanen,Fabio Fognini,01:24,Round of 32,6 7,3 6(4),Otto Virtanen,Completed,ms021,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms021
+Round of 32,Aleksandar Vukic,James Duckworth,01:22,Round of 32,6 7,4 5,Aleksandar Vukic,Completed,ms018,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms018
+Round of 32,Beibit Zhukayev,Benjamin Hassan,01:05,Round of 32,6 6,4 1,Beibit Zhukayev,Completed,ms022,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/ms022
+2nd Round Qualifying,Daniel Evans,Yunchaokete Bu,02:22,2nd Round Qualifying,6 3 7,2 6 5,Daniel Evans,Completed,qs004,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs004
+2nd Round Qualifying,Mikhail Kukushkin,Alibek Kachmazov,01:06,2nd Round Qualifying,6 6,1 2,Mikhail Kukushkin,Completed,qs005,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs005
+2nd Round Qualifying,Benjamin Hassan,Yasutaka Uchiyama,01:05,2nd Round Qualifying,6 6,2 2,Benjamin Hassan,Completed,qs006,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs006
+2nd Round Qualifying,Aslan Karatsev,Alejandro Moro Canas,01:25,2nd Round Qualifying,6 6,4 3,Aslan Karatsev,Completed,qs007,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs007
+1st Round Qualifying,Yunchaokete Bu,Illya Marchenko,01:19,1st Round Qualifying,6 6,3 4,Yunchaokete Bu,Completed,qs008,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs008
+1st Round Qualifying,Mikhail Kukushkin,Khumoyun Sultanov,01:23,1st Round Qualifying,6 6,4 4,Mikhail Kukushkin,Completed,qs010,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs010
+1st Round Qualifying,Yasutaka Uchiyama,Ergi Kirkin,01:45,1st Round Qualifying,7 6,6(2) 3,Yasutaka Uchiyama,Completed,qs012,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs012
+1st Round Qualifying,Aslan Karatsev,Filip Misolic,01:19,1st Round Qualifying,6 7,2 5,Aslan Karatsev,Completed,qs014,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs014
+1st Round Qualifying,Alejandro Moro Canas,Nicolai Budkov Kjaer,01:20,1st Round Qualifying,6 6,1 3,Alejandro Moro Canas,Completed,qs015,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs015
+1st Round Qualifying,Daniel Evans,Amir Omarkhanov,01:08,1st Round Qualifying,6 6,4 2,Daniel Evans,Completed,qs009,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs009
+1st Round Qualifying,Benjamin Hassan,Denis Yevseyev,00:56,1st Round Qualifying,6 6,2 4,Benjamin Hassan,Completed,qs013,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs013
+1st Round Qualifying,Alibek Kachmazov,Maxime Cressy,01:25,1st Round Qualifying,4 6 2,6 3 0,Alibek Kachmazov,Completed,qs011,9410,https://www.atptour.com//en/scores/stats-centre/archive/2024/9410/qs011

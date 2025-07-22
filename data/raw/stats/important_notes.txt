@@ -1,0 +1,1 @@
+These pkl files contain the lists of the stats from urls up to the 4002nd msmatch. However, they are of different lengths. I had to clean them, inserting columns names and nan values in the correct place to make them all match. This is already done and saved to "Tennis ML/data/raw/all_stats.csv". So CAUTION if using these pkl files.

@@ -1,0 +1,44 @@
+match_date,player_1,player_2,duration,match_round,player_1_scores,player_2_scores,winner,result,match_id,tournament_id,stats_link
+Final,Matteo Berrettini,Quentin Halys,00:59,Finals,6 6,3 1,Matteo Berrettini,Completed,ms001,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms001
+Semifinal,Matteo Berrettini,Stefanos Tsitsipas,01:43,Semi-Finals,7 7,6(6) 5,Matteo Berrettini,Completed,ms002,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms002
+Semifinal,Quentin Halys,Jan-Lennard Struff,01:21,Semi-Finals,6 7,3 6(2),Quentin Halys,Completed,ms003,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms003
+Quarterfinal,Stefanos Tsitsipas,Fabio Fognini,01:07,Quarter-Finals,6 6,4 3,Stefanos Tsitsipas,Completed,ms004,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms004
+Quarterfinal,Matteo Berrettini,Felix Auger-Aliassime,02:10,Quarter-Finals,7 7,6(7) 6(2),Matteo Berrettini,Completed,ms005,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms005
+Quarterfinal,Jan-Lennard Struff,Tomas Martin Etcheverry,02:16,Quarter-Finals,7 3 6,5 6 3,Jan-Lennard Struff,Completed,ms006,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms006
+Quarterfinal,Quentin Halys,Gustavo Heide,01:22,Quarter-Finals,6 7,1 5,Quentin Halys,Completed,ms007,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms007
+Round of 16,Stefanos Tsitsipas,Hamad Medjedovic,01:43,Round of 16,7 6,6(6) 3,Stefanos Tsitsipas,Completed,ms008,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms008
+Round of 16,Gustavo Heide,Ugo Humbert,02:21,Round of 16,6(2) 6 6,7 2 3,Gustavo Heide,Completed,ms015,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms015
+Round of 16,Felix Auger-Aliassime,Yannick Hanfmann,01:53,Round of 16,7 6,6(6) 2,Felix Auger-Aliassime,Completed,ms010,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms010
+Round of 16,Tomas Martin Etcheverry,Botic van de Zandschulp,02:17,Round of 16,6 2 6,2 6 3,Tomas Martin Etcheverry,Completed,ms013,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms013
+Round of 16,Jan-Lennard Struff,Leandro Riedi,01:38,Round of 16,7 7,6(6) 6(1),Jan-Lennard Struff,Completed,ms012,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms012
+Round of 16,Matteo Berrettini,Daniel Elahi Galan,01:19,Round of 16,6 6,4 2,Matteo Berrettini,Completed,ms011,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms011
+Round of 16,Fabio Fognini,Juan Pablo Varillas,02:47,Round of 16,3 7 7,6 6(5) 5,Fabio Fognini,Completed,ms009,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms009
+Round of 16,Quentin Halys,Lukas Klein,02:10,Round of 16,6 6(7) 6,3 7 4,Quentin Halys,Completed,ms014,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms014
+Round of 32,Stefanos Tsitsipas,Bye,00:00,Round of 32,,,Stefanos Tsitsipas,Completed,,314,
+Round of 32,Ugo Humbert,Bye,00:00,Round of 32,,,Ugo Humbert,Completed,,314,
+Round of 32,Felix Auger-Aliassime,Bye,00:00,Round of 32,,,Felix Auger-Aliassime,Completed,,314,
+Round of 32,Tomas Martin Etcheverry,Bye,00:00,Round of 32,,,Tomas Martin Etcheverry,Completed,,314,
+Round of 32,Jan-Lennard Struff,Albert Ramos-Vinolas,01:48,Round of 32,7 7,6(6) 6(4),Jan-Lennard Struff,Completed,ms024,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms024
+Round of 32,Matteo Berrettini,Pedro Cachin,01:41,Round of 32,6 7,4 6(2),Matteo Berrettini,Completed,ms023,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms023
+Round of 32,Fabio Fognini,Titouan Droguet,01:24,Round of 32,6 6,4 3,Fabio Fognini,Completed,ms019,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms019
+Round of 32,Lukas Klein,Stan Wawrinka,02:02,Round of 32,7 2 7,6(4) 6 5,Lukas Klein,Completed,ms028,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms028
+Round of 32,Daniel Elahi Galan,Vit Kopriva,01:21,Round of 32,6 6,3 2,Daniel Elahi Galan,Completed,ms022,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms022
+Round of 32,Quentin Halys,Richard Gasquet,02:01,Round of 32,7 7,6(4) 6(5),Quentin Halys,Completed,ms029,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms029
+Round of 32,Yannick Hanfmann,Nicolas Moreno De Alboran,02:37,Round of 32,7 6(2) 6,6(2) 7 4,Yannick Hanfmann,Completed,ms021,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms021
+Round of 32,Gustavo Heide,Stefano Napolitano,03:12,Round of 32,7 5 7,6(4) 7 6(3),Gustavo Heide,Completed,ms030,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms030
+Round of 32,Hamad Medjedovic,Marc-Andrea Huesler,02:20,Round of 32,6(3) 7 6,7 6(2) 3,Hamad Medjedovic,Completed,ms017,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms017
+Round of 32,Leandro Riedi,Gregoire Barrere,01:44,Round of 32,7 7,6(2) 5,Leandro Riedi,Completed,ms025,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms025
+Round of 32,Botic van de Zandschulp,Dominic Stricker,01:21,Round of 32,6 6,3 3,Botic van de Zandschulp,Completed,ms026,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms026
+Round of 32,Juan Pablo Varillas,Dominic Thiem,02:52,Round of 32,6 5 7,3 7 6(4),Juan Pablo Varillas,Completed,ms018,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/ms018
+2nd Round Qualifying,Titouan Droguet,Maks Kasnikowski,01:26,2nd Round Qualifying,7 6,5 2,Titouan Droguet,Completed,qs004,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs004
+2nd Round Qualifying,Quentin Halys,Nicolas Moreno De Alboran,01:26,2nd Round Qualifying,7 6,5 3,Quentin Halys,Completed,qs005,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs005
+2nd Round Qualifying,Juan Pablo Varillas,Jerome Kym,02:33,2nd Round Qualifying,7 4 6,6(4) 6 1,Juan Pablo Varillas,Completed,qs006,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs006
+2nd Round Qualifying,Gustavo Heide,Filip Misolic,01:58,2nd Round Qualifying,6 3 6,3 6 4,Gustavo Heide,Completed,qs007,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs007
+1st Round Qualifying,Titouan Droguet,Filip Cristian Jianu,02:52,1st Round Qualifying,7 3 7,6(10) 6 6(3),Titouan Droguet,Completed,qs008,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs008
+1st Round Qualifying,Nicolas Moreno De Alboran,Andrea Collarini,01:12,1st Round Qualifying,6 6,2 2,Nicolas Moreno De Alboran,Completed,qs010,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs010
+1st Round Qualifying,Juan Pablo Varillas,Clement Tabur,01:13,1st Round Qualifying,6 6,4 2,Juan Pablo Varillas,Completed,qs012,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs012
+1st Round Qualifying,Filip Misolic,Nerman Fatic,02:23,1st Round Qualifying,6 3 7,3 6 5,Filip Misolic,Completed,qs014,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs014
+1st Round Qualifying,Gustavo Heide,Mika Brunold,01:17,1st Round Qualifying,6 6,4 2,Gustavo Heide,Completed,qs015,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs015
+1st Round Qualifying,Maks Kasnikowski,Remy Bertola,01:01,1st Round Qualifying,6 6,3 1,Maks Kasnikowski,Completed,qs009,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs009
+1st Round Qualifying,Quentin Halys,Giovanni Fonio,02:00,1st Round Qualifying,1 7 6,6 6(6) 2,Quentin Halys,Completed,qs011,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs011
+1st Round Qualifying,Jerome Kym,Maxime Janvier,01:19,1st Round Qualifying,6 6,4 4,Jerome Kym,Completed,qs013,314,https://www.atptour.com//en/scores/stats-centre/archive/2024/314/qs013

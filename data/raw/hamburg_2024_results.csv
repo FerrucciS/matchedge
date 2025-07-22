@@ -1,0 +1,44 @@
+match_date,player_1,player_2,duration,match_round,player_1_scores,player_2_scores,winner,result,match_id,tournament_id,stats_link
+Final,Arthur Fils,Alexander Zverev,03:33,Finals,6 3 7,3 6 6(1),Arthur Fils,Completed,ms001,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms001
+Semifinal,Alexander Zverev,Pedro Martinez,01:24,Semi-Finals,6 6,2 4,Alexander Zverev,Completed,ms002,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms002
+Semifinal,Arthur Fils,Sebastian Baez,01:07,Semi-Finals,6 6,2 2,Arthur Fils,Completed,ms003,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms003
+Quarterfinal,Alexander Zverev,Zhizhen Zhang,01:06,Quarter-Finals,6 6,4 3,Alexander Zverev,Completed,ms004,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms004
+Quarterfinal,Arthur Fils,Holger Rune,01:05,Quarter-Finals,6 4,4 1,Arthur Fils,Completed,ms007,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms007
+Quarterfinal,Sebastian Baez,Luciano Darderi,02:17,Quarter-Finals,2 6 6,6 4 4,Sebastian Baez,Completed,ms006,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms006
+Quarterfinal,Pedro Martinez,Francisco Cerundolo,01:57,Quarter-Finals,1 6 6,6 1 4,Pedro Martinez,Completed,ms005,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms005
+Round of 16,Alexander Zverev,Hugo Gaston,02:38,Round of 16,4 6 7,6 2 5,Alexander Zverev,Completed,ms008,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms008
+Round of 16,Holger Rune,Marco Trungelliti,01:20,Round of 16,6 6,4 3,Holger Rune,Completed,ms015,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms015
+Round of 16,Sebastian Baez,Dusan Lajovic,02:40,Round of 16,4 7 6,6 5 2,Sebastian Baez,Completed,ms013,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms013
+Round of 16,Francisco Cerundolo,Maximilian Marterer,01:08,Round of 16,6 6,0 2,Francisco Cerundolo,Completed,ms010,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms010
+Round of 16,Arthur Fils,Laslo Djere,01:46,Round of 16,7 6,6(3) 2,Arthur Fils,Completed,ms014,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms014
+Round of 16,Luciano Darderi,Alexander Shevchenko,01:53,Round of 16,6 2 6,3 6 3,Luciano Darderi,Completed,ms012,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms012
+Round of 16,Zhizhen Zhang,Flavio Cobolli,01:16,Round of 16,6 7,1 6(5),Zhizhen Zhang,Completed,ms009,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms009
+Round of 16,Pedro Martinez,Ugo Blanchet,02:13,Round of 16,6 0 7,4 6 5,Pedro Martinez,Completed,ms011,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms011
+Round of 32,Alexander Zverev,Jesper de Jong,01:17,Round of 32,6 6,2 2,Alexander Zverev,Completed,ms016,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms016
+Round of 32,Holger Rune,Fabian Marozsan,01:21,Round of 32,6 6,4 4,Holger Rune,Completed,ms031,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms031
+Round of 32,Sebastian Baez,Dominik Koepfer,01:05,Round of 32,6 6,2 3,Sebastian Baez,Completed,ms027,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms027
+Round of 32,Francisco Cerundolo,Francisco Comesana,01:40,Round of 32,7 6,5 4,Francisco Cerundolo,Completed,ms020,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms020
+Round of 32,Arthur Fils,Jaume Munar,02:11,Round of 32,5 6 6,7 3 1,Arthur Fils,Completed,ms028,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms028
+Round of 32,Pedro Martinez,Matteo Arnaldi,01:40,Round of 32,7 6,6(4) 1,Pedro Martinez,Completed,ms023,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms023
+Round of 32,Luciano Darderi,Nick Hardt,01:37,Round of 32,6 2 6,1 6 0,Luciano Darderi,Completed,ms024,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms024
+Round of 32,Zhizhen Zhang,Thiago Seyboth Wild,01:40,Round of 32,7 6,6(6) 0,Zhizhen Zhang,Completed,ms019,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms019
+Round of 32,Ugo Blanchet,Alexei Popyrin,02:33,Round of 32,4 7 6,6 6(6) 2,Ugo Blanchet,Completed,ms022,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms022
+Round of 32,Flavio Cobolli,Daniel Altmaier,02:39,Round of 32,6 6(6) 6,4 7 3,Flavio Cobolli,Completed,ms018,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms018
+Round of 32,Laslo Djere,Zizou Bergs,01:47,Round of 32,6 7,3 6(4),Laslo Djere,Completed,ms029,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms029
+Round of 32,Hugo Gaston,Facundo Diaz Acosta,02:34,Round of 32,7 1 6,6(4) 6 4,Hugo Gaston,Completed,ms017,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms017
+Round of 32,Dusan Lajovic,Felipe Meligeni Alves,02:27,Round of 32,6 6(5) 6,2 7 3,Dusan Lajovic,Completed,ms026,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms026
+Round of 32,Maximilian Marterer,Soonwoo Kwon,02:50,Round of 32,6 6(6) 7,4 7 5,Maximilian Marterer,Completed,ms021,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms021
+Round of 32,Alexander Shevchenko,Rudolf Molleker,02:04,Round of 32,6 4 6,4 6 4,Alexander Shevchenko,Completed,ms025,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms025
+Round of 32,Marco Trungelliti,Sebastian Ofner,01:08,Round of 32,6 4,1 3,Marco Trungelliti,Completed,ms030,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/ms030
+2nd Round Qualifying,Jesper de Jong,Nick Hardt,01:31,2nd Round Qualifying,6 6,3 4,Jesper de Jong,Completed,qs004,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs004
+2nd Round Qualifying,Ugo Blanchet,Francisco Comesana,01:16,2nd Round Qualifying,6 6,3 4,Ugo Blanchet,Completed,qs005,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs005
+2nd Round Qualifying,Felipe Meligeni Alves,Filip Krajinovic,01:12,2nd Round Qualifying,6 6,3 4,Felipe Meligeni Alves,Completed,qs007,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs007
+2nd Round Qualifying,Marco Trungelliti,Aziz Dougaz,01:30,2nd Round Qualifying,6 6,3 2,Marco Trungelliti,Completed,qs006,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs006
+1st Round Qualifying,Jesper de Jong,Max Hans Rehberg,01:31,1st Round Qualifying,7 6,6(5) 1,Jesper de Jong,Completed,qs008,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs008
+1st Round Qualifying,Francisco Comesana,Abdullah Shelbayh,01:55,1st Round Qualifying,6 7,4 5,Francisco Comesana,Completed,qs010,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs010
+1st Round Qualifying,Aziz Dougaz,Mikhail Kukushkin,01:47,1st Round Qualifying,7 6,5 3,Aziz Dougaz,Completed,qs012,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs012
+1st Round Qualifying,Felipe Meligeni Alves,Vitaliy Sachko,02:14,1st Round Qualifying,3 6 7,6 2 6(4),Felipe Meligeni Alves,Completed,qs014,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs014
+1st Round Qualifying,Marco Trungelliti,Marko Topo,01:55,1st Round Qualifying,5 6 6,7 3 0,Marco Trungelliti,Completed,qs013,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs013
+1st Round Qualifying,Filip Krajinovic,Chun-Hsin Tseng,02:01,1st Round Qualifying,6 2 6,4 6 1,Filip Krajinovic,Completed,qs015,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs015
+1st Round Qualifying,Ugo Blanchet,Dalibor Svrcina,01:54,1st Round Qualifying,7 7,5 6(5),Ugo Blanchet,Completed,qs011,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs011
+1st Round Qualifying,Nick Hardt,Marvin Moeller,01:38,1st Round Qualifying,6 6,2 4,Nick Hardt,Completed,qs009,414,https://www.atptour.com//en/scores/stats-centre/archive/2024/414/qs009

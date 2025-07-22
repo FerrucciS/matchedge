@@ -1,0 +1,44 @@
+match_date,player_1,player_2,duration,match_round,player_1_scores,player_2_scores,winner,result,match_id,tournament_id,stats_link
+Final,Nuno Borges,Rafael Nadal,01:28,Finals,6 6,3 2,Nuno Borges,Completed,ms001,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms001
+Semifinal,Nuno Borges,Thiago Agustin Tirante,01:10,Semi-Finals,6 6,3 4,Nuno Borges,Completed,ms002,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms002
+Semifinal,Rafael Nadal,Duje Ajdukovic,02:13,Semi-Finals,4 6 6,6 3 4,Rafael Nadal,Completed,ms003,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms003
+Quarterfinal,Rafael Nadal,Mariano Navone,04:00,Quarter-Finals,6(2) 7 7,7 5 5,Rafael Nadal,Completed,ms006,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms006
+Quarterfinal,Nuno Borges,Timofey Skatov,01:31,Quarter-Finals,6 6,4 3,Nuno Borges,Completed,ms005,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms005
+Quarterfinal,Duje Ajdukovic,Thiago Monteiro,02:10,Quarter-Finals,6 4 6,2 6 4,Duje Ajdukovic,Completed,ms007,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms007
+Quarterfinal,Thiago Agustin Tirante,Roberto Carballes Baena,02:15,Quarter-Finals,6 2 7,3 6 5,Thiago Agustin Tirante,Completed,ms004,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms004
+Round of 16,Thiago Agustin Tirante,Andrey Rublev,02:25,Round of 16,7 3 6,6(5) 6 4,Thiago Agustin Tirante,Completed,ms008,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms008
+Round of 16,Thiago Monteiro,Casper Ruud,01:29,Round of 16,6 6,3 3,Thiago Monteiro,Completed,ms015,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms015
+Round of 16,Timofey Skatov,Tallon Griekspoor,02:09,Round of 16,1 6 6,6 3 4,Timofey Skatov,Completed,ms010,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms010
+Round of 16,Mariano Navone,Sumit Nagal,01:41,Round of 16,6 6,4 2,Mariano Navone,Completed,ms013,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms013
+Round of 16,Rafael Nadal,Cameron Norrie,01:43,Round of 16,6 6,4 4,Rafael Nadal,Completed,ms012,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms012
+Round of 16,Nuno Borges,Henrique Rocha,02:09,Round of 16,1 6 6,6 4 0,Nuno Borges,Completed,ms011,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms011
+Round of 16,Duje Ajdukovic,Pavel Kotov,02:31,Round of 16,7 3 6,6(7) 6 3,Duje Ajdukovic,Completed,ms014,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms014
+Round of 16,Roberto Carballes Baena,Denis Yevseyev,02:17,Round of 16,2 6 6,6 3 2,Roberto Carballes Baena,Completed,ms009,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms009
+Round of 32,Andrey Rublev,Bye,00:00,Round of 32,,,Andrey Rublev,Completed,,316,
+Round of 32,Casper Ruud,Bye,00:00,Round of 32,,,Casper Ruud,Completed,,316,
+Round of 32,Tallon Griekspoor,Bye,00:00,Round of 32,,,Tallon Griekspoor,Completed,,316,
+Round of 32,Mariano Navone,Bye,00:00,Round of 32,,,Mariano Navone,Completed,,316,
+Round of 32,Cameron Norrie,Jozef Kovalik,01:36,Round of 32,7 6,6(4) 4,Cameron Norrie,Completed,ms024,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms024
+Round of 32,Roberto Carballes Baena,Roman Safiullin,02:57,Round of 32,5 7 6,7 6(3) 3,Roberto Carballes Baena,Completed,ms019,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms019
+Round of 32,Nuno Borges,Andrea Pellegrino,01:31,Round of 32,6 7,2 6(3),Nuno Borges,Completed,ms023,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms023
+Round of 32,Pavel Kotov,Cristian Garin,02:33,Round of 32,6 6(6) 6,4 7 1,Pavel Kotov,Completed,ms028,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms028
+Round of 32,Duje Ajdukovic,Luca Van Assche,01:14,Round of 32,6 6,3 3,Duje Ajdukovic,Completed,ms029,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms029
+Round of 32,Thiago Monteiro,Federico Coria,01:07,Round of 32,6 6,1 3,Thiago Monteiro,Completed,ms030,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms030
+Round of 32,Rafael Nadal,Leo Borg,01:25,Round of 32,6 6,3 4,Rafael Nadal,Completed,ms025,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms025
+Round of 32,Sumit Nagal,Elias Ymer,01:38,Round of 32,6 6,4 3,Sumit Nagal,Completed,ms026,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms026
+Round of 32,Henrique Rocha,Camilo Ugo Carabelli,02:07,Round of 32,4 6 6,6 2 2,Henrique Rocha,Completed,ms022,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms022
+Round of 32,Timofey Skatov,Taro Daniel,03:32,Round of 32,6(7) 6 7,7 2 6(4),Timofey Skatov,Completed,ms021,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms021
+Round of 32,Thiago Agustin Tirante,Jaime Faria,01:56,Round of 32,3 6 6,6 1 4,Thiago Agustin Tirante,Completed,ms017,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms017
+Round of 32,Denis Yevseyev,Alexandre Muller,01:35,Round of 32,7 7,5 5,Denis Yevseyev,Completed,ms018,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/ms018
+2nd Round Qualifying,Duje Ajdukovic,Alejandro Moro Canas,01:46,2nd Round Qualifying,7 6,6(4) 3,Duje Ajdukovic,Completed,qs005,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs005
+2nd Round Qualifying,Jaime Faria,Otto Virtanen,00:58,2nd Round Qualifying,6 6,1 4,Jaime Faria,Completed,qs007,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs007
+2nd Round Qualifying,Timofey Skatov,Andrea Pellegrino,01:37,2nd Round Qualifying,6 6,4 1,Timofey Skatov,Completed,qs004,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs004
+2nd Round Qualifying,Denis Yevseyev,Manuel Guinard,02:13,2nd Round Qualifying,4 6 6,6 4 3,Denis Yevseyev,Completed,qs006,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs006
+1st Round Qualifying,Timofey Skatov,Matteo Gigante,00:57,1st Round Qualifying,6 6,1 0,Timofey Skatov,Completed,qs008,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs008
+1st Round Qualifying,Duje Ajdukovic,Dmitry Popko,01:21,1st Round Qualifying,6 6,2 4,Duje Ajdukovic,Completed,qs010,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs010
+1st Round Qualifying,Manuel Guinard,Roman Andres Burruchaga,02:08,1st Round Qualifying,6 1 7,2 6 6(5),Manuel Guinard,Completed,qs012,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs012
+1st Round Qualifying,Otto Virtanen,William Rejchtman Vinciguerra,01:44,1st Round Qualifying,6 1 6,4 6 4,Otto Virtanen,Completed,qs014,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs014
+1st Round Qualifying,Andrea Pellegrino,Martin Krumich,02:21,1st Round Qualifying,4 7 6,6 5 1,Andrea Pellegrino,Completed,qs009,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs009
+1st Round Qualifying,Denis Yevseyev,Ludvig Fredrik Hede,01:24,1st Round Qualifying,2 6 6,6 1 1,Denis Yevseyev,Completed,qs013,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs013
+1st Round Qualifying,Jaime Faria,Andrey Kuznetsov,01:06,1st Round Qualifying,6 6,3 4,Jaime Faria,Completed,qs015,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs015
+1st Round Qualifying,Alejandro Moro Canas,Nikolas Sanchez Izquierdo,01:15,1st Round Qualifying,6 6,1 3,Alejandro Moro Canas,Completed,qs011,316,https://www.atptour.com//en/scores/stats-centre/archive/2024/316/qs011

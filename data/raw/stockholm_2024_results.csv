@@ -1,0 +1,44 @@
+match_date,player_1,player_2,duration,match_round,player_1_scores,player_2_scores,winner,result,match_id,tournament_id,stats_link
+Final,Tommy Paul,Grigor Dimitrov,01:25,Finals,6 6,4 3,Tommy Paul,Completed,ms001,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms001
+Semifinal,Grigor Dimitrov,Tallon Griekspoor,02:25,Semi-Finals,2 7 6,6 5 4,Grigor Dimitrov,Completed,ms003,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms003
+Semifinal,Tommy Paul,Stan Wawrinka,01:21,Semi-Finals,6 6,3 2,Tommy Paul,Completed,ms002,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms002
+Quarterfinal,Stan Wawrinka,Andrey Rublev,01:52,Quarter-Finals,7 7,6(5) 6(5),Stan Wawrinka,Completed,ms004,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms004
+Quarterfinal,Tallon Griekspoor,Casper Ruud,01:58,Quarter-Finals,7 7,5 6(5),Tallon Griekspoor,Completed,ms007,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms007
+Quarterfinal,Grigor Dimitrov,Dominic Stricker,01:11,Quarter-Finals,6 6,3 2,Grigor Dimitrov,Completed,ms006,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms006
+Quarterfinal,Tommy Paul,Miomir Kecmanovic,01:42,Quarter-Finals,7 6,6(9) 2,Tommy Paul,Completed,ms005,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms005
+Round of 16,Andrey Rublev,Alexandre Muller,01:04,Round of 16,6 6,4 1,Andrey Rublev,Completed,ms008,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms008
+Round of 16,Casper Ruud,Lorenzo Sonego,01:44,Round of 16,6 7,3 6(3),Casper Ruud,Completed,ms015,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms015
+Round of 16,Grigor Dimitrov,Quentin Halys,01:39,Round of 16,7 6,6(1) 3,Grigor Dimitrov,Completed,ms013,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms013
+Round of 16,Tommy Paul,Laslo Djere,01:39,Round of 16,6 7,2 6(2),Tommy Paul,Completed,ms010,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms010
+Round of 16,Miomir Kecmanovic,Nicolas Jarry,02:22,Round of 16,6 4 7,4 6 6(2),Miomir Kecmanovic,Completed,ms011,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms011
+Round of 16,Tallon Griekspoor,Jacob Fearnley,01:30,Round of 16,7 6,6(0) 3,Tallon Griekspoor,Completed,ms014,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms014
+Round of 16,Dominic Stricker,Matteo Berrettini,01:48,Round of 16,7 6,6(6) 4,Dominic Stricker,Completed,ms012,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms012
+Round of 16,Stan Wawrinka,Alejandro Davidovich Fokina,02:12,Round of 16,6 3 7,4 6 5,Stan Wawrinka,Completed,ms009,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms009
+Round of 32,Andrey Rublev,Bye,00:00,Round of 32,,,Andrey Rublev,Completed,,429,
+Round of 32,Casper Ruud,Bye,00:00,Round of 32,,,Casper Ruud,Completed,,429,
+Round of 32,Grigor Dimitrov,Bye,00:00,Round of 32,,,Grigor Dimitrov,Completed,,429,
+Round of 32,Tommy Paul,Bye,00:00,Round of 32,,,Tommy Paul,Completed,,429,
+Round of 32,Nicolas Jarry,Elias Ymer,02:27,Round of 32,2 6 7,6 4 6(7),Nicolas Jarry,Completed,ms023,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms023
+Round of 32,Stan Wawrinka,Brandon Nakashima,01:21,Round of 32,6 6,4 4,Stan Wawrinka,Completed,ms019,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms019
+Round of 32,Tallon Griekspoor,Pavel Kotov,01:13,Round of 32,6 6,4 3,Tallon Griekspoor,Completed,ms028,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms028
+Round of 32,Matteo Berrettini,Luciano Darderi,01:17,Round of 32,6 6,4 3,Matteo Berrettini,Completed,ms024,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms024
+Round of 32,Alejandro Davidovich Fokina,Thiago Agustin Tirante,01:42,Round of 32,7 6,6(2) 2,Alejandro Davidovich Fokina,Completed,ms018,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms018
+Round of 32,Laslo Djere,Pedro Martinez,00:52,Round of 32,6 6,2 0,Laslo Djere,Completed,ms021,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms021
+Round of 32,Jacob Fearnley,Corentin Moutet,01:52,Round of 32,6 7,2 6(5),Jacob Fearnley,Completed,ms029,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms029
+Round of 32,Quentin Halys,Sumit Nagal,01:04,Round of 32,6 6,0 4,Quentin Halys,Completed,ms026,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms026
+Round of 32,Miomir Kecmanovic,Cameron Norrie,01:18,Round of 32,6 6,4 4,Miomir Kecmanovic,Completed,ms022,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms022
+Round of 32,Alexandre Muller,Leo Borg,01:30,Round of 32,6 7,3 6(5),Alexandre Muller,Completed,ms017,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms017
+Round of 32,Lorenzo Sonego,Marc-Andrea Huesler,01:51,Round of 32,7 7,6(1) 5,Lorenzo Sonego,Completed,ms030,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms030
+Round of 32,Dominic Stricker,Aleksandar Kovacevic,02:19,Round of 32,6 5 6,4 7 4,Dominic Stricker,Completed,ms025,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/ms025
+2nd Round Qualifying,Jacob Fearnley,Kamil Majchrzak,02:31,2nd Round Qualifying,3 6 7,6 3 6(2),Jacob Fearnley,Completed,qs004,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs004
+2nd Round Qualifying,Laslo Djere,Hamad Medjedovic,01:21,2nd Round Qualifying,6 6,3 4,Laslo Djere,Completed,qs006,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs006
+2nd Round Qualifying,Thiago Agustin Tirante,August Holmgren,01:06,2nd Round Qualifying,6 6,3 2,Thiago Agustin Tirante,Completed,qs005,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs005
+2nd Round Qualifying,Marc-Andrea Huesler,Zsombor Piros,01:02,2nd Round Qualifying,6 6,2 2,Marc-Andrea Huesler,Completed,qs007,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs007
+1st Round Qualifying,Jacob Fearnley,Lukas Pokorny,01:04,1st Round Qualifying,6 6,4 2,Jacob Fearnley,Completed,qs008,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs008
+1st Round Qualifying,August Holmgren,Alexander Ritschard,01:50,1st Round Qualifying,7 6,6(6) 4,August Holmgren,Completed,qs010,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs010
+1st Round Qualifying,Laslo Djere,Adrian Andreev,01:32,1st Round Qualifying,6 3 6,1 6 0,Laslo Djere,Completed,qs012,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs012
+1st Round Qualifying,Zsombor Piros,Lukas Klein,01:58,1st Round Qualifying,6(5) 6 6,7 2 3,Zsombor Piros,Completed,qs014,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs014
+1st Round Qualifying,Thiago Agustin Tirante,Nikola Slavic,02:06,1st Round Qualifying,6(5) 6 6,7 3 2,Thiago Agustin Tirante,Completed,qs011,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs011
+1st Round Qualifying,Kamil Majchrzak,Rafael Ymer,00:49,1st Round Qualifying,6 6,1 1,Kamil Majchrzak,Completed,qs009,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs009
+1st Round Qualifying,Marc-Andrea Huesler,Lucas Renard,00:47,1st Round Qualifying,6 6,0 0,Marc-Andrea Huesler,Completed,qs015,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs015
+1st Round Qualifying,Hamad Medjedovic,Arthur Reymond,01:35,1st Round Qualifying,7 7,6(4) 5,Hamad Medjedovic,Completed,qs013,429,https://www.atptour.com//en/scores/stats-centre/archive/2024/429/qs013

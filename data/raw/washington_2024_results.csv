@@ -1,0 +1,82 @@
+match_date,player_1,player_2,duration,match_round,player_1_scores,player_2_scores,winner,result,match_id,tournament_id,stats_link
+Final,Sebastian Korda,Flavio Cobolli,01:34,Finals,4 6 6,6 2 0,Sebastian Korda,Completed,ms001,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms001
+Semifinal,Flavio Cobolli,Ben Shelton,02:05,Semi-Finals,4 7 6,6 5 3,Flavio Cobolli,Completed,ms003,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms003
+Semifinal,Sebastian Korda,Frances Tiafoe,01:25,Semi-Finals,6 6,4 4,Sebastian Korda,Completed,ms002,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms002
+Quarterfinal,Frances Tiafoe,Andrey Rublev,01:38,Quarter-Finals,6 7,4 6(3),Frances Tiafoe,Completed,ms004,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms004
+Quarterfinal,Ben Shelton,Denis Shapovalov,02:03,Quarter-Finals,7 6,6(5) 6,Ben Shelton,Completed,ms007,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms007
+Quarterfinal,Sebastian Korda,Jordan Thompson,01:11,Quarter-Finals,6 6,4 2,Sebastian Korda,Completed,ms005,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms005
+Quarterfinal,Flavio Cobolli,Alex Michelsen,02:39,Quarter-Finals,7 3 7,5 6 6(2),Flavio Cobolli,Completed,ms006,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms006
+Round of 16,Andrey Rublev,Arthur Rinderknech,01:28,Round of 16,7 6,6(4) 4,Andrey Rublev,Completed,ms008,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms008
+Round of 16,Ben Shelton,Brandon Nakashima,01:46,Round of 16,7 7,6(5) 6(4),Ben Shelton,Completed,ms015,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms015
+Round of 16,Sebastian Korda,Thanasi Kokkinakis,02:17,Round of 16,6(1) 7 3,7 5 2,Sebastian Korda,Completed,ms010,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms010
+Round of 16,Frances Tiafoe,Aleksandar Kovacevic,02:29,Round of 16,7 4 6,6(3) 6 3,Frances Tiafoe,Completed,ms009,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms009
+Round of 16,Jordan Thompson,Giovanni Mpetshi Perricard,01:44,Round of 16,7 6,5 4,Jordan Thompson,Completed,ms011,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms011
+Round of 16,Flavio Cobolli,Alejandro Davidovich Fokina,03:15,Round of 16,1 7 7,6 6(0) 6(7),Flavio Cobolli,Completed,ms012,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms012
+Round of 16,Denis Shapovalov,Miomir Kecmanovic,01:43,Round of 16,4 6 6,6 4 2,Denis Shapovalov,Completed,ms014,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms014
+Round of 16,Alex Michelsen,Seongchan Hong,01:20,Round of 16,6 6,3 3,Alex Michelsen,Completed,ms013,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms013
+Round of 32,Andrey Rublev,Luca Van Assche,01:43,Round of 32,4 6 6,6 3 4,Andrey Rublev,Completed,ms016,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms016
+Round of 32,Ben Shelton,Radu Albot,02:18,Round of 32,6 6(5) 6,4 7 3,Ben Shelton,Completed,ms031,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms031
+Round of 32,Seongchan Hong,Karen Khachanov,01:11,Round of 32,6 6,2 4,Seongchan Hong,Completed,ms027,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms027
+Round of 32,Sebastian Korda,Cristian Garin,01:11,Round of 32,6 6,3 2,Sebastian Korda,Completed,ms020,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms020
+Round of 32,Frances Tiafoe,Daniel Elahi Galan,02:23,Round of 32,6(8) 6 6,7 3 3,Frances Tiafoe,Completed,ms019,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms019
+Round of 32,Denis Shapovalov,Adrian Mannarino,00:59,Round of 32,6 6,2 1,Denis Shapovalov,Completed,ms028,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms028
+Round of 32,Jordan Thompson,Reilly Opelka,01:21,Round of 32,6 6,4 3,Jordan Thompson,Completed,ms023,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms023
+Round of 32,Alejandro Davidovich Fokina,Mitchell Krueger,02:31,Round of 32,3 7 6,6 6(3) 4,Alejandro Davidovich Fokina,Completed,ms024,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms024
+Round of 32,Giovanni Mpetshi Perricard,Emil Ruusuvuori,01:50,Round of 32,7 7,6(6) 6(6),Giovanni Mpetshi Perricard,Completed,ms022,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms022
+Round of 32,Flavio Cobolli,David Goffin,01:39,Round of 32,7 6,6(4) 3,Flavio Cobolli,Completed,ms025,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms025
+Round of 32,Aleksandar Kovacevic,Roberto Carballes Baena,02:05,Round of 32,7 7,6(4) 6(3),Aleksandar Kovacevic,Completed,ms018,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms018
+Round of 32,Miomir Kecmanovic,J.J. Wolf,01:25,Round of 32,6 6,2 3,Miomir Kecmanovic,Completed,ms029,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms029
+Round of 32,Brandon Nakashima,Christopher O'Connell,01:06,Round of 32,6 6,2 2,Brandon Nakashima,Completed,ms030,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms030
+Round of 32,Thanasi Kokkinakis,Aleksandar Vukic,01:50,Round of 32,6 7,4 6(4),Thanasi Kokkinakis,Completed,ms021,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms021
+Round of 32,Alex Michelsen,Mattia Bellucci,01:37,Round of 32,6 7,3 6(1),Alex Michelsen,Completed,ms026,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms026
+Round of 32,Arthur Rinderknech,Juncheng Shang,00:31,Round of 32,2,3,Arthur Rinderknech,Completed,ms017,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms017
+Round of 64,Andrey Rublev,Bye,00:00,Round of 64,,,Andrey Rublev,Completed,,418,
+Round of 64,Ben Shelton,Bye,00:00,Round of 64,,,Ben Shelton,Completed,,418,
+Round of 64,Karen Khachanov,Bye,00:00,Round of 64,,,Karen Khachanov,Completed,,418,
+Round of 64,Sebastian Korda,Bye,00:00,Round of 64,,,Sebastian Korda,Completed,,418,
+Round of 64,Frances Tiafoe,Bye,00:00,Round of 64,,,Frances Tiafoe,Completed,,418,
+Round of 64,Adrian Mannarino,Bye,00:00,Round of 64,,,Adrian Mannarino,Completed,,418,
+Round of 64,Jordan Thompson,Bye,00:00,Round of 64,,,Jordan Thompson,Completed,,418,
+Round of 64,Alejandro Davidovich Fokina,Bye,00:00,Round of 64,,,Alejandro Davidovich Fokina,Completed,,418,
+Round of 64,Giovanni Mpetshi Perricard,Bye,00:00,Round of 64,,,Giovanni Mpetshi Perricard,Completed,,418,
+Round of 64,Flavio Cobolli,Bye,00:00,Round of 64,,,Flavio Cobolli,Completed,,418,
+Round of 64,Roberto Carballes Baena,Bye,00:00,Round of 64,,,Roberto Carballes Baena,Completed,,418,
+Round of 64,Miomir Kecmanovic,Bye,00:00,Round of 64,,,Miomir Kecmanovic,Completed,,418,
+Round of 64,Brandon Nakashima,Bye,00:00,Round of 64,,,Brandon Nakashima,Completed,,418,
+Round of 64,Aleksandar Vukic,Bye,00:00,Round of 64,,,Aleksandar Vukic,Completed,,418,
+Round of 64,Alex Michelsen,Bye,00:00,Round of 64,,,Alex Michelsen,Completed,,418,
+Round of 64,Arthur Rinderknech,Bye,00:00,Round of 64,,,Arthur Rinderknech,Completed,,418,
+Round of 64,Radu Albot,Facundo Diaz Acosta,02:13,Round of 64,7 6,6(5) 3,Radu Albot,Completed,ms062,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms062
+Round of 64,Mattia Bellucci,Mackenzie McDonald,02:04,Round of 64,7 7,6(4) 6(3),Mattia Bellucci,Completed,ms053,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms053
+Round of 64,Daniel Elahi Galan,Maxime Cressy,01:28,Round of 64,6 6,4 3,Daniel Elahi Galan,Completed,ms038,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms038
+Round of 64,Cristian Garin,Aslan Karatsev,01:33,Round of 64,6 6,4 2,Cristian Garin,Completed,ms041,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms041
+Round of 64,David Goffin,Camilo Ugo Carabelli,01:29,Round of 64,6 7,2 5,David Goffin,Completed,ms050,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms050
+Round of 64,Seongchan Hong,Adam Walton,02:04,Round of 64,7 7,6(6) 6(4),Seongchan Hong,Completed,ms054,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms054
+Round of 64,Thanasi Kokkinakis,Max Purcell,02:14,Round of 64,6(4) 6 6,7 4 3,Thanasi Kokkinakis,Completed,ms042,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms042
+Round of 64,Aleksandar Kovacevic,Yoshihito Nishioka,02:23,Round of 64,4 6 6,6 4 2,Aleksandar Kovacevic,Completed,ms037,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms037
+Round of 64,Mitchell Krueger,Luca Nardi,01:27,Round of 64,7 4,6(3) 1,Mitchell Krueger,Completed,ms049,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms049
+Round of 64,Christopher O'Connell,Harold Mayot,01:37,Round of 64,6 7,4 6(3),Christopher O'Connell,Completed,ms061,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms061
+Round of 64,Reilly Opelka,James Duckworth,02:21,Round of 64,6(12) 7 6,7 5 4,Reilly Opelka,Completed,ms046,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms046
+Round of 64,Emil Ruusuvuori,Borna Coric,02:59,Round of 64,6(4) 7 6,7 6(8) 4,Emil Ruusuvuori,Completed,ms045,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms045
+Round of 64,Juncheng Shang,Elias Ymer,01:29,Round of 64,6 6,4 3,Juncheng Shang,Completed,ms034,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms034
+Round of 64,Denis Shapovalov,Roberto Bautista Agut,01:29,Round of 64,6 6,1 4,Denis Shapovalov,Completed,ms057,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms057
+Round of 64,Luca Van Assche,Arthur Cazaux,01:30,Round of 64,6 6,4 3,Luca Van Assche,Completed,ms033,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms033
+Round of 64,J.J. Wolf,Zachary Svajda,01:39,Round of 64,6 7,4 5,J.J. Wolf,Completed,ms058,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/ms058
+2nd Round Qualifying,Mitchell Krueger,Zachary Svajda,01:09,2nd Round Qualifying,6 6,2 2,Mitchell Krueger,Completed,qs010,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs010
+2nd Round Qualifying,Radu Albot,Terence Atmane,02:20,2nd Round Qualifying,2 6 7,6 3 5,Radu Albot,Completed,qs011,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs011
+2nd Round Qualifying,Mattia Bellucci,Leandro Riedi,02:47,2nd Round Qualifying,6(4) 6 7,7 3 6(4),Mattia Bellucci,Completed,qs012,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs012
+2nd Round Qualifying,Elias Ymer,Shintaro Mochizuki,01:03,2nd Round Qualifying,6 6,3 0,Elias Ymer,Completed,qs013,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs013
+2nd Round Qualifying,Maxime Cressy,Marc Polmans,01:48,2nd Round Qualifying,6 2 6,3 6 0,Maxime Cressy,Completed,qs008,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs008
+2nd Round Qualifying,Seongchan Hong,Paul Jubb,01:40,2nd Round Qualifying,6 7,4 5,Seongchan Hong,Completed,qs009,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs009
+1st Round Qualifying,Paul Jubb,Billy Harris,01:39,1st Round Qualifying,6 7,3 5,Paul Jubb,Completed,qs018,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs018
+1st Round Qualifying,Zachary Svajda,Yasutaka Uchiyama,01:20,1st Round Qualifying,6 6,4 3,Zachary Svajda,Completed,qs020,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs020
+1st Round Qualifying,Terence Atmane,Liam Broady,01:35,1st Round Qualifying,7 6,6(4) 4,Terence Atmane,Completed,qs022,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs022
+1st Round Qualifying,Leandro Riedi,Gijs Brouwer,01:09,1st Round Qualifying,6 6,3 2,Leandro Riedi,Completed,qs024,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs024
+1st Round Qualifying,Elias Ymer,Benjamin Bonzi,02:00,1st Round Qualifying,4 6 6,6 3 2,Elias Ymer,Completed,qs026,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs026
+1st Round Qualifying,Mattia Bellucci,Tristan Boyer,01:46,1st Round Qualifying,7 6,6(6) 2,Mattia Bellucci,Completed,qs025,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs025
+1st Round Qualifying,Radu Albot,Eliot Spizzirri,01:03,1st Round Qualifying,6 6,0 2,Radu Albot,Completed,qs023,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs023
+1st Round Qualifying,Mitchell Krueger,Denis Yevseyev,01:06,1st Round Qualifying,6 6,2 4,Mitchell Krueger,Completed,qs021,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs021
+1st Round Qualifying,Shintaro Mochizuki,Andrew Fenty,02:05,1st Round Qualifying,3 7,6 6(4),Shintaro Mochizuki,Completed,qs027,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs027
+1st Round Qualifying,Maxime Cressy,Tristan Schoolkate,01:11,1st Round Qualifying,6 6,1 2,Maxime Cressy,Completed,qs017,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs017
+1st Round Qualifying,Seongchan Hong,Alex Bolt,01:27,1st Round Qualifying,6 6,4 4,Seongchan Hong,Completed,qs019,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs019
+1st Round Qualifying,Marc Polmans,Thai-Son Kwiatkowski,02:25,1st Round Qualifying,3 7 6,6 5 2,Marc Polmans,Completed,qs016,418,https://www.atptour.com//en/scores/stats-centre/archive/2024/418/qs016

@@ -1,0 +1,44 @@
+match_date,player_1,player_2,duration,match_round,player_1_scores,player_2_scores,winner,result,match_id,tournament_id,stats_link
+Final,Giovanni Mpetshi Perricard,Ben Shelton,01:27,Finals,6 7,4 6(4),Giovanni Mpetshi Perricard,Completed,ms001,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms001
+Semifinal,Giovanni Mpetshi Perricard,Holger Rune,01:19,Semi-Finals,7 6,6(6) 4,Giovanni Mpetshi Perricard,Completed,ms003,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms003
+Semifinal,Ben Shelton,Arthur Fils,01:18,Semi-Finals,6 7,3 6(9),Ben Shelton,Completed,ms002,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms002
+Quarterfinal,Ben Shelton,Andrey Rublev,02:15,Quarter-Finals,7 6(3) 6,5 7 4,Ben Shelton,Completed,ms004,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms004
+Quarterfinal,Arthur Fils,Stefanos Tsitsipas,01:24,Quarter-Finals,7 6,6(5) 3,Arthur Fils,Completed,ms005,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms005
+Quarterfinal,Holger Rune,David Goffin,01:20,Quarter-Finals,6 6,2 4,Holger Rune,Completed,ms006,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms006
+Quarterfinal,Giovanni Mpetshi Perricard,Denis Shapovalov,02:06,Quarter-Finals,6(7) 6 7,7 3 6(3),Giovanni Mpetshi Perricard,Completed,ms007,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms007
+Round of 16,Andrey Rublev,Alejandro Tabilo,01:13,Round of 16,7 6,6(3) 1,Andrey Rublev,Completed,ms008,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms008
+Round of 16,Stefanos Tsitsipas,Botic van de Zandschulp,01:47,Round of 16,7 7,6(3) 5,Stefanos Tsitsipas,Completed,ms010,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms010
+Round of 16,Holger Rune,Dominic Stricker,01:27,Round of 16,6 7,3 6(2),Holger Rune,Completed,ms013,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms013
+Round of 16,David Goffin,Ugo Humbert,02:27,Round of 16,3 6 7,6 1 6(7),David Goffin,Completed,ms012,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms012
+Round of 16,Ben Shelton,Stan Wawrinka,01:35,Round of 16,7 7,6(2) 5,Ben Shelton,Completed,ms009,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms009
+Round of 16,Arthur Fils,Pedro Martinez,01:30,Round of 16,7 6,5 3,Arthur Fils,Completed,ms011,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms011
+Round of 16,Giovanni Mpetshi Perricard,Felix Auger-Aliassime,01:22,Round of 16,6 7,1 6(6),Giovanni Mpetshi Perricard,Completed,ms014,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms014
+Round of 16,Denis Shapovalov,Roberto Bautista Agut,01:40,Round of 16,6 7,3 6(4),Denis Shapovalov,Completed,ms015,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms015
+Round of 32,Andrey Rublev,Nuno Borges,01:05,Round of 32,6 6,3 2,Andrey Rublev,Completed,ms016,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms016
+Round of 32,Roberto Bautista Agut,Casper Ruud,02:03,Round of 32,6 3 6,3 6 3,Roberto Bautista Agut,Completed,ms031,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms031
+Round of 32,Stefanos Tsitsipas,Francisco Cerundolo,02:32,Round of 32,6 6(3) 7,3 7 6(4),Stefanos Tsitsipas,Completed,ms020,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms020
+Round of 32,Holger Rune,Nicolas Jarry,01:26,Round of 32,6 7,4 6(3),Holger Rune,Completed,ms027,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms027
+Round of 32,Ugo Humbert,Jerome Kym,02:30,Round of 32,6 6(5) 7,4 7 5,Ugo Humbert,Completed,ms024,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms024
+Round of 32,Ben Shelton,Tomas Martin Etcheverry,01:14,Round of 32,6 6,3 4,Ben Shelton,Completed,ms019,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms019
+Round of 32,Arthur Fils,Daniel Altmaier,01:39,Round of 32,7 6,6(5) 3,Arthur Fils,Completed,ms023,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms023
+Round of 32,Felix Auger-Aliassime,Sebastian Baez,01:15,Round of 32,7 6,5 1,Felix Auger-Aliassime,Completed,ms028,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms028
+Round of 32,David Goffin,Matteo Arnaldi,02:30,Round of 32,6(5) 6 6,7 3 2,David Goffin,Completed,ms025,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms025
+Round of 32,Pedro Martinez,Jiri Lehecka,01:07,Round of 32,6 6,2 2,Pedro Martinez,Completed,ms022,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms022
+Round of 32,Giovanni Mpetshi Perricard,James Duckworth,01:19,Round of 32,7 6,6(4) 3,Giovanni Mpetshi Perricard,Completed,ms029,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms029
+Round of 32,Denis Shapovalov,Juncheng Shang,01:08,Round of 32,6 6,1 4,Denis Shapovalov,Completed,ms030,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms030
+Round of 32,Dominic Stricker,Tallon Griekspoor,01:07,Round of 32,6 6,4 4,Dominic Stricker,Completed,ms026,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms026
+Round of 32,Alejandro Tabilo,Marin Cilic,02:06,Round of 32,7 7,6(4) 6(2),Alejandro Tabilo,Completed,ms017,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms017
+Round of 32,Botic van de Zandschulp,Alexander Bublik,01:47,Round of 32,3 6 4,6 4 0,Botic van de Zandschulp,Completed,ms021,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms021
+Round of 32,Stan Wawrinka,Adrian Mannarino,02:01,Round of 32,6 3 7,3 6 5,Stan Wawrinka,Completed,ms018,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/ms018
+2nd Round Qualifying,Botic van de Zandschulp,David Goffin,01:45,2nd Round Qualifying,6 6,2 4,Botic van de Zandschulp,Completed,qs004,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs004
+2nd Round Qualifying,James Duckworth,Sumit Nagal,01:45,2nd Round Qualifying,6 7,4 6(2),James Duckworth,Completed,qs007,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs007
+2nd Round Qualifying,Daniel Altmaier,Jacob Fearnley,02:24,2nd Round Qualifying,6 3 7,3 6 6(5),Daniel Altmaier,Completed,qs005,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs005
+2nd Round Qualifying,Jerome Kym,Henry Bernet,01:16,2nd Round Qualifying,6 6,2 4,Jerome Kym,Completed,qs006,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs006
+1st Round Qualifying,David Goffin,Yannick Hanfmann,02:13,1st Round Qualifying,6(2) 6 6,7 1 4,David Goffin,Completed,qs008,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs008
+1st Round Qualifying,Jerome Kym,Arthur Rinderknech,01:22,1st Round Qualifying,6 7,1 6(3),Jerome Kym,Completed,qs012,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs012
+1st Round Qualifying,James Duckworth,Mika Brunold,01:34,1st Round Qualifying,6 7,3 6(4),James Duckworth,Completed,qs014,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs014
+1st Round Qualifying,Sumit Nagal,Facundo Diaz Acosta,03:41,1st Round Qualifying,5 7 7,7 6(3) 6(5),Sumit Nagal,Completed,qs015,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs015
+1st Round Qualifying,Botic van de Zandschulp,Thiago Monteiro,02:37,1st Round Qualifying,6(5) 6 6,7 4 4,Botic van de Zandschulp,Completed,qs009,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs009
+1st Round Qualifying,Jacob Fearnley,Christopher O'Connell,01:55,1st Round Qualifying,6 1 6,4 6 4,Jacob Fearnley,Completed,qs011,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs011
+1st Round Qualifying,Henry Bernet,Fabio Fognini,01:14,1st Round Qualifying,6 7,3 6(4),Henry Bernet,Completed,qs013,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs013
+1st Round Qualifying,Daniel Altmaier,Jesper de Jong,01:35,1st Round Qualifying,6 7,4 6(3),Daniel Altmaier,Completed,qs010,328,https://www.atptour.com//en/scores/stats-centre/archive/2024/328/qs010
