@@ -54,7 +54,7 @@ Give steps to recreate your environment.
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/FerrucciS/tennis-ml.git
+git clone https://github.com/FerrucciS/matchedge.git
 cd tennis-ml
 ```
 
