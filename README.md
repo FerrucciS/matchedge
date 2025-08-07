@@ -54,7 +54,7 @@ Give steps to recreate your environment.
 1. Clone the repo:
 
 ```bash
-git clone https://github.com/your-username/tennis-ml.git
+git clone https://github.com/FerrucciS/tennis-ml.git
 cd tennis-ml
 ```
 
