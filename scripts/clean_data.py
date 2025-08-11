@@ -315,25 +315,50 @@ def best_of_col(df, col="tournament_id"):
     return df
 
 
+        # def add_winner_id(df):
+        #     """
+        #     Adds a 'winner_id' column by fuzzy-matching winner names to player names
+        #     from the player archive dictionary, appending NaN for unmatched names.
+
+        #     Args:
+        #         df (pd.DataFrame): DataFrame containing a 'winner' column with player names.
+
+        #     Returns:
+        #         pd.DataFrame: DataFrame with added 'winner_id' column containing player IDs.
+        #     """
+        #     winner_id = []
+        #     name_keys = list(name_to_id.keys())                                                                     # Converts keys to strings for matching
+
+        #     for name in df['winner']:
+        #         matched_name, score, ind = process.extractOne(name, name_keys)                                      # Use fuzzy matching to find the best match for winner name 
+        #         if score > 50:
+        #             winner_id.append(name_to_id[matched_name])                                                      # Appends corresponding id in dictionary if match passed the threshold
+        #         else:                                                                                               # Otherwise append Nan and print best match
+        #             print(f"Unmatched: {name} (Best guess: {matched_name}, Score: {score})")
+        #             winner_id.append(np.nan)
+
+        #     df["winner_id"] = winner_id
+        #     return df
+        
+        
+# Trial to match names like Novak Djokovic to N. Djokovic rather than D. Novak
 def add_winner_id(df):
     """
     Adds a 'winner_id' column by fuzzy-matching winner names to player names
     from the player archive dictionary, appending NaN for unmatched names.
-
-    Args:
-        df (pd.DataFrame): DataFrame containing a 'winner' column with player names.
-
-    Returns:
-        pd.DataFrame: DataFrame with added 'winner_id' column containing player IDs.
     """
     winner_id = []
-    name_keys = list(name_to_id.keys())                                                                     # Converts keys to strings for matching
+    name_keys = list(name_to_id.keys())
 
     for name in df['winner']:
-        matched_name, score, ind = process.extractOne(name, name_keys)                                      # Use fuzzy matching to find the best match for winner name 
+        matched_name, score, ind = process.extractOne(
+            name,
+            name_keys,
+            scorer=fuzz.token_sort_ratio  # ignores order, compares tokens
+        )
         if score > 50:
-            winner_id.append(name_to_id[matched_name])                                                      # Appends corresponding id in dictionary if match passed the threshold
-        else:                                                                                               # Otherwise append Nan and print best match
+            winner_id.append(name_to_id[matched_name])
+        else:
             print(f"Unmatched: {name} (Best guess: {matched_name}, Score: {score})")
             winner_id.append(np.nan)
 
@@ -539,6 +564,39 @@ def remove_unwanted_values(df):
     return df
 
 
+def concat_name(row):
+    """
+    Formats player names by adding first initial and period if not already present.
+    
+    Parameters:
+        row (pd.Series): A row of the DataFrame with 'player_1' and 'player_2' columns.
+    
+    Returns:
+        pd.Series: The modified row with formatted player names.
+    """
+    for col in ['player_1', 'player_2', 'winner']:
+        name = row[col]
+        if isinstance(name, str) and '.' not in name:
+            parts = name.strip().split()
+            if len(parts) >= 2:
+                row[col] = parts[0][0].upper() + '. ' + ' '.join(parts[1:])
+    return row
+
+
+def clean_names(df):
+    """
+    Applies name formatting to all rows in the DataFrame.
+    
+    Parameters:
+        df (pd.DataFrame): DataFrame containing 'player_1' and 'player_2' columns.
+    
+    Returns:
+        pd.DataFrame: Modified DataFrame with cleaned names.
+    """
+    return df.apply(concat_name, axis=1)
+
+
+
 def clean_results_df(df):
     """
     Runs a full cleaning pipeline on match results DataFrame:
@@ -556,6 +614,7 @@ def clean_results_df(df):
     df = fix_match_date(df)														                            # Correct match_date values with fuzzy tournament end date lookup
     df = change_scores(df)														                            # Split player scores into p1_set1..5 and p2_set1..5 columns
     df = best_of_col(df)														                            # Add best_of column (3 or 5) based on tournament_id
+    df = clean_names(df)
     df = add_winner_id(df)														                            # Add winner_id column by fuzzy matching winner names
     df = fix_mismatch_names(df)													                            # Fixes F. Augustin Gomez --> F. Gomez and adds his id
     df = clean_incorrect_results(df)											                            # Fix incorrect 'result' entries like Bye and Walkover
@@ -889,7 +948,7 @@ def combine_results_and_tourn(df_results, df_tourn):
                 left_on=["tournament_id"],							                                    	# Join key from results
                 right_on=["id"],								                                			# Join key from tournaments
                 how="left"									                                    			# Left join to keep all results
-    )
+    ).drop(columns=["id"])                                                                                  # Drop the redundant 'id' column
     return merged_results									                                				# Return enriched results DataFrame
 
 

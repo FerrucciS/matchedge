@@ -69,7 +69,7 @@ if __name__ == "__main__":
 
     # --- 8.0. Merge with Old DataFrame
     all_merged_matches = pd.read_csv("s3://matchedge-pipeline/data/clean/merged_matches.csv")
-    all_merged_matches = pd.read_csv("/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches.csv")
+    # all_merged_matches = pd.read_csv("/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches.csv")
     # Create backup
     all_merged_matches.to_csv(f"s3://matchedge-pipeline/data/clean/merged_matches_{file_date}.csv", sep=',', columns=all_merged_matches.columns, index=False)
     all_merged_matches.to_csv(f"/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches_{file_date}.csv", sep=',', columns=all_merged_matches.columns, index=False)
