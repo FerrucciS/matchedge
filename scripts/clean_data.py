@@ -107,15 +107,17 @@ name_corrections = {                                                            
     'D. Elahi Galan': ('D. Galan', 'ge33'),
     'F. Cristian Jianu': ('F. Jianu', 'j09x'),
     'Y. Hsiou Hsu': ('Y. Hsu', 'h09f'),
-    'Y. Hsiou Hsu': ('G. Bailly', 'b0qc')
+    'G. Arnaud Bailly': ('G. Bailly', 'b0qc')
     # Add more entries as needed...
 }
 
-df_live_rankings = pd.read_csv("s3://matchedge-pipeline/data/clean/top_500_players.csv")                    # Load player rankings data
+# df_live_rankings = pd.read_csv("s3://matchedge-pipeline/data/clean/top_500_players.csv")                    # Load player rankings data
 
-df_player_archive = pd.read_csv("s3://matchedge-pipeline/data/clean/player_archive.csv")                    # Load player archive
-name_to_id = df_player_archive.set_index("player_name")["player_id"].to_dict()                              # Mapping: player Name -> player ID
-id_to_name = df_player_archive.set_index("player_id")["player_name"].to_dict()                              # Mapping: player ID -> player Name
+df_top_players = pd.read_csv("s3://matchedge-pipeline/data/clean/top_players.csv")                    # Load player archive
+
+# df_player_archive = pd.read_csv("s3://matchedge-pipeline/data/clean/player_archive.csv")                    # Load player archive
+name_to_id = df_top_players.set_index("name")["id"].to_dict()                              # Mapping: player Name -> player ID
+id_to_name = df_top_players.set_index("id")["name"].to_dict()                              # Mapping: player ID -> player Name
 
 df_tournaments = pd.read_csv("s3://matchedge-pipeline/data/clean/all_tournaments.csv")                      # Load tournament data
 id_to_end_date = df_tournaments.set_index("id")["end_date"].to_dict()                                       # Mapping: tournament ID -> end date
@@ -315,98 +317,51 @@ def best_of_col(df, col="tournament_id"):
     return df
 
 
-        # def add_winner_id(df):
-        #     """
-        #     Adds a 'winner_id' column by fuzzy-matching winner names to player names
-        #     from the player archive dictionary, appending NaN for unmatched names.
-
-        #     Args:
-        #         df (pd.DataFrame): DataFrame containing a 'winner' column with player names.
-
-        #     Returns:
-        #         pd.DataFrame: DataFrame with added 'winner_id' column containing player IDs.
-        #     """
-        #     winner_id = []
-        #     name_keys = list(name_to_id.keys())                                                                     # Converts keys to strings for matching
-
-        #     for name in df['winner']:
-        #         matched_name, score, ind = process.extractOne(name, name_keys)                                      # Use fuzzy matching to find the best match for winner name 
-        #         if score > 50:
-        #             winner_id.append(name_to_id[matched_name])                                                      # Appends corresponding id in dictionary if match passed the threshold
-        #         else:                                                                                               # Otherwise append Nan and print best match
-        #             print(f"Unmatched: {name} (Best guess: {matched_name}, Score: {score})")
-        #             winner_id.append(np.nan)
-
-        #     df["winner_id"] = winner_id
-        #     return df
-        
-        
-# Trial to match names like Novak Djokovic to N. Djokovic rather than D. Novak
 def add_winner_id(df):
     """
-    Adds a 'winner_id' column by fuzzy-matching winner names to player names
-    from the player archive dictionary, appending NaN for unmatched names.
+    Matches winner names to IDs using last name + first initial match,
+    with fuzzy fallback for edge cases.
+
+    Parameters:
+        df (pd.DataFrame): DataFrame with a 'winner' column containing full names.
+    
+    Returns:
+        pd.DataFrame: DataFrame with a new 'winner_id' column.
     """
     winner_id = []
     name_keys = list(name_to_id.keys())
 
-    for name in df['winner']:
-        matched_name, score, ind = process.extractOne(
-            name,
-            name_keys,
-            scorer=fuzz.token_sort_ratio  # ignores order, compares tokens
-        )
-        if score > 50:
-            winner_id.append(name_to_id[matched_name])
+    for winner_full in df['winner']:                                                                        # Split winner's name into words
+        normalized_winner = winner_full.replace('-', ' ').replace('.', '').lower()
+        winner_parts = normalized_winner.split()
+        winner_last = winner_parts[-1]
+        winner_first_initial = winner_parts[0][0]
+
+        match = None                                                                                        # Try direct match based on last name + first initial
+        for key in name_keys:
+            key_parts = key.replace('.', '').split()
+            key_last = key_parts[-1]
+            key_first_initial = key_parts[0][0]
+
+            if key_last.lower() == winner_last.lower() and key_first_initial.lower() == winner_first_initial.lower():
+                match = key
+                break
+        
+        if not match:                                                                                       # If no direct match, fallback to fuzzy matching
+            matched_name, score, _ = process.extractOne(
+                winner_full, name_keys, scorer=fuzz.token_sort_ratio
+            )
+            if score > 70:                                                                                  # slightly stricter threshold
+                match = matched_name
+
+        if match:
+            winner_id.append(name_to_id[match])
         else:
-            print(f"Unmatched: {name} (Best guess: {matched_name}, Score: {score})")
+            print(f"Unmatched: {winner_full}")
             winner_id.append(np.nan)
 
-    df["winner_id"] = winner_id
+    df['winner_id'] = winner_id
     return df
-
-
-def fix_mismatch_names(df):
-    """
-    Applies the `mismatch_name` function row-wise to fix name mismatches in the DataFrame.
-    
-    This function assumes the presence of a custom function `mismatch_name(row)` that 
-    corrects or standardizes player or tournament names for each row.
-    
-    Parameters:
-        df (pd.DataFrame): The input DataFrame containing at least the columns required 
-                           by the `mismatch_name` function.
-    
-    Returns:
-        pd.DataFrame: A new DataFrame with name mismatches corrected.
-    """
-    return df.apply(mismatch_name, axis=1)                                                                  # Apply the correction function row-by-row
-
-
-def mismatch_name(row):
-    """
-    Checks for and corrects mismatched player names and IDs in a single DataFrame row.
-
-    This function iterates through a predefined dictionary of known incorrect player names 
-    (`name_corrections`) and replaces them with the correct name and corresponding player ID 
-    if found in either 'player_1' or 'player_2' columns.
-
-    Parameters:
-        row (pd.Series): A single row from the DataFrame, expected to contain the columns 
-                         'player_1', 'player_1_id', 'player_2', and 'player_2_id'.
-
-    Returns:
-        pd.Series: The updated row with corrected names and IDs.
-    """
-    for wrong_name, (correct_name, correct_id) in name_corrections.items():
-        if row['player_1'] == wrong_name:                                                                   # Fix player_1 name and ID if it matches a known incorrect name
-            row['player_1'] = correct_name
-            row['player_1_id'] = correct_id
-        if row['player_2'] == wrong_name:                                                                   # Fix player_2 name and ID if it matches a known incorrect name
-            row['player_2'] = correct_name
-            row['player_2_id'] = correct_id
-
-    return row
 
     
 def clean_incorrect_results(df):
@@ -532,21 +487,63 @@ def format_results_cols(df):
 
     return df
 
+
+
+
+
+
     
+                    # def fill_proper_id_from_archive(df, name_to_id=name_to_id):
+                    #     """
+                    #     Maps player names to their IDs using a given name-to-ID dictionary.
+
+                    #     Parameters:
+                    #     df (pd.DataFrame): DataFrame containing 'player_1' and 'player_2' name columns.
+                    #     name_to_id (dict): Dictionary mapping player names to player IDs.
+
+                    #     Returns:
+                    #     pd.DataFrame: DataFrame with 'player_1_id' and 'player_2_id' columns updated.
+                    #     """
+                    #     df['player_1_id'] = df['player_1'].map(name_to_id)                                                      # Map player_1 names to IDs
+                    #     df['player_2_id'] = df['player_2'].map(name_to_id)                                                      # Map player_2 names to IDs
+                    #     return df
+
+
 def fill_proper_id_from_archive(df, name_to_id=name_to_id):
     """
-    Maps player names to their IDs using a given name-to-ID dictionary.
+    Maps player names to IDs by matching first initial and last name.
 
     Parameters:
-    df (pd.DataFrame): DataFrame containing 'player_1' and 'player_2' name columns.
-    name_to_id (dict): Dictionary mapping player names to player IDs.
+        df (pd.DataFrame): DataFrame containing 'player_1' and 'player_2'.
+        name_to_id (dict): Mapping from full names to player IDs.
 
     Returns:
-    pd.DataFrame: DataFrame with 'player_1_id' and 'player_2_id' columns updated.
+        pd.DataFrame: DataFrame with updated 'player_1_id' and 'player_2_id'.
     """
-    df['player_1_id'] = df['player_1'].map(name_to_id)                                                      # Map player_1 names to IDs
-    df['player_2_id'] = df['player_2'].map(name_to_id)                                                      # Map player_2 names to IDs
+    def match_id(name):
+        if pd.isna(name):
+            return None
+        parts = name.split()
+        if len(parts) < 2:
+            return None
+        first_initial = parts[0][0].upper() + "."                              # e.g., "J."
+        last_name = parts[-1].title()                                          # e.g., "Struff"
+
+        # Search name_to_id keys for same initial + last name
+        for key in name_to_id:
+            k_parts = key.split()
+            if len(k_parts) >= 2:
+                if k_parts[0] == first_initial and k_parts[-1].title() == last_name:
+                    return name_to_id[key]
+        return None
+
+    df['player_1_id'] = df['player_1'].apply(match_id)
+    df['player_2_id'] = df['player_2'].apply(match_id)
     return df
+
+
+
+
 
 
 def remove_unwanted_values(df):
@@ -577,9 +574,10 @@ def concat_name(row):
     for col in ['player_1', 'player_2', 'winner']:
         name = row[col]
         if isinstance(name, str) and '.' not in name:
-            parts = name.strip().split()
+            parts = name.strip().replace('-',' ').split()
             if len(parts) >= 2:
-                row[col] = parts[0][0].upper() + '. ' + ' '.join(parts[1:])
+                row[col] = parts[0][0].upper() + '. ' + ' '.join(parts[1:]).title()
+        else: row[col] = name.strip().replace('-',' ').title()
     return row
 
 
@@ -611,12 +609,12 @@ def clean_results_df(df):
     Returns:
         pd.DataFrame: Cleaned match results DataFrame with added columns.
     """
-    df = fix_match_date(df)														                            # Correct match_date values with fuzzy tournament end date lookup
+    df = fix_match_date(df)														                            # Correct match_date values for 2024 with fuzzy tournament end_date lookup
     df = change_scores(df)														                            # Split player scores into p1_set1..5 and p2_set1..5 columns
     df = best_of_col(df)														                            # Add best_of column (3 or 5) based on tournament_id
     df = clean_names(df)
     df = add_winner_id(df)														                            # Add winner_id column by fuzzy matching winner names
-    df = fix_mismatch_names(df)													                            # Fixes F. Augustin Gomez --> F. Gomez and adds his id
+    # df = fix_mismatch_names(df)													                            # Fixes F. Augustin Gomez --> F. Gomez and adds his id
     df = clean_incorrect_results(df)											                            # Fix incorrect 'result' entries like Bye and Walkover
     df = fill_proper_id_from_archive(df)										                            # Map player names to IDs using archive dictionary
     df = remove_unwanted_values(df)												                            # Remove rows with missing match_id or player scores
@@ -834,101 +832,6 @@ def clean_stats_df(df):
     return df										                                            			# return cleaned DataFrame
 
 
-# -------------------------------- For Player Archive --------------------------------
-
-def update_player_listings(df_live_rankings=df_live_rankings, df_results=df_results, df_stats=df_stats, master_list_path="s3://matchedge-pipeline/data/clean/player_archive.csv"):
-    """
-    Update the master player listings by combining live rankings, stats, and results data, 
-    cleaning and normalizing player names and IDs, correcting bad/truncated names using fuzzy matching, 
-    and saving the updated master list.
-
-    Parameters:
-    df_live_rankings (pd.DataFrame): DataFrame with live player rankings (columns: 'name', 'id').
-    df_results (pd.DataFrame): DataFrame containing match results with player columns (commented out here).
-    df_stats (pd.DataFrame): DataFrame containing match statistics with player columns.
-    master_list_path (str): Path to CSV file for the master player list (local or S3).
-
-    Returns:
-    pd.DataFrame: Updated master player list DataFrame with cleaned, normalized names and IDs.
-    """
-    
-    if os.path.exists(master_list_path):								                                    # Check if master list CSV exists locally
-                df_master = pd.read_csv(master_list_path)						                            # Load existing master list
-    else:
-                df_master = pd.DataFrame(columns=['player_name', 'player_id'])	                            # Create empty DataFrame if not
-
-    players_top500 = df_live_rankings[['name', 'id']].rename(columns={'name': 'player_name', 'id': 'player_id'})				# Extract players from live rankings, rename columns
-        # players_results_1 = df_results[['player_1', 'player_1_id']].rename(columns={'player_1': 'player_name', 'player_1_id': 'player_id'})	# Commented out players from results
-        # players_results_2 = df_results[['player_2', 'player_2_id']].rename(columns={'player_2': 'player_name', 'player_2_id': 'player_id'})	# Commented out players from results
-    players_stats1 = df_stats[['player_1', 'p1_id']].rename(columns={'player_1': 'player_name', 'p1_id': 'player_id'})			# Players from stats player_1
-    players_stats2 = df_stats[['player_2', 'p2_id']].rename(columns={'player_2': 'player_name', 'p2_id': 'player_id'})			# Players from stats player_2
-
-    new_players = pd.concat([players_top500, players_stats1, players_stats2], ignore_index=True)			# Combine new players from all sources
-
-    combined = pd.concat([df_master, new_players], ignore_index=True)										# Combine with existing master list
-
-    combined['player_name_norm'] = combined['player_name'].fillna('').str.strip().str.lower()				# Normalize player names: lowercase, stripped whitespace
-    
-    combined['player_id'] = combined['player_id'].apply(lambda x: x if pd.isna(x) or len(str(x)) <= 4 else np.nan)	# Remove IDs longer than 4 chars
-    
-    combined['has_id'] = combined['player_id'].notna() & (combined['player_id'] != '')						# Flag rows that have valid player IDs
-
-    combined = combined.sort_values(by=['player_name_norm', 'has_id'], ascending=[True, False])				# Sort so rows with IDs come first for each normalized name
-
-    combined = combined.drop_duplicates(subset='player_name_norm', keep='first').reset_index(drop=True)		# Deduplicate by normalized name, keeping row with ID if present
-
-    def is_bad_name(name):																					# Function to detect bad/truncated names
-                if pd.isna(name):
-                        return False
-                if '...' in name:
-                        return True
-                if re.search(r'[A-Z]{5,}', name):															# Detect long uppercase strings
-                        return True
-                return False
-
-    combined['is_bad_name'] = combined['player_name'].apply(is_bad_name)									# Flag bad names
-
-    combined['player_name_norm'] = combined['player_name'].fillna('').str.strip().str.lower()				# Recalculate normalized names to ensure consistency
-
-    good_names_df = combined[~combined['is_bad_name']].copy()												# Separate good names
-    bad_names_df = combined[combined['is_bad_name']].copy()													# Separate bad names
-
-    good_names_list = good_names_df['player_name_norm'].tolist()											# List of good normalized names for matching
-
-    def find_best_match(name, choices, threshold=20):														# Fuzzy match bad names to good names
-                match = process.extractOne(name, choices, scorer=fuzz.token_sort_ratio)
-                if match and match[1] >= threshold:
-                        return match[0]
-                return None
-
-    mapping = {}
-    for idx, bad_name in bad_names_df['player_name_norm'].items():											# Map bad names to best fuzzy matches
-                best_match = find_best_match(bad_name, good_names_list)
-                mapping[bad_name] = best_match if best_match else bad_name
-
-    bad_names_df['player_name_norm'] = bad_names_df['player_name_norm'].apply(lambda x: mapping.get(x, x))	# Replace bad normalized names with matched good ones
-
-    bad_id_lookup = bad_names_df.dropna(subset=['player_id']).set_index('player_name_norm')['player_id'].to_dict()		# Lookup dict for IDs from bad names where present
-
-    def fill_missing_id_good(row):																			# Fill missing player IDs in good names from bad names where available
-                if pd.isna(row['player_id']):
-                        return bad_id_lookup.get(row['player_name_norm'], np.nan)
-                return row['player_id']
-
-    good_names_df['player_id'] = good_names_df.apply(fill_missing_id_good, axis=1)							# Apply ID filling to good names
-
-    combined = pd.concat([good_names_df, bad_names_df], ignore_index=True)									# Recombine good and bad name dataframes
-
-    combined = combined.sort_values(by=['player_name_norm', 'has_id'], ascending=[True, False])				# Resort combined data
-    combined = combined.drop_duplicates(subset='player_name_norm', keep='first').reset_index(drop=True)		# Deduplicate again after fixing names and IDs
-
-    combined = combined.drop(columns=['player_name_norm', 'has_id', 'is_bad_name'])							# Drop helper columns
-
-    combined.to_csv(master_list_path, index=False)															# Save updated master list
-
-    return combined																							# Return updated master DataFrame
-
-
 # -------------------------------- Join DataFrames And Drop Columns --------------------------------
 
 def combine_results_and_tourn(df_results, df_tourn):
@@ -944,9 +847,9 @@ def combine_results_and_tourn(df_results, df_tourn):
     """
     merged_results = pd.merge(
                 df_results,												                                    # Left DataFrame: match results
-                df_tourn[['id', 'level', 'location', 'surface']],		                                    # Right DataFrame: selected tournament columns
-                left_on=["tournament_id"],							                                    	# Join key from results
-                right_on=["id"],								                                			# Join key from tournaments
+                df_tourn[['id', 'level', 'location', 'surface', 'year']],		                                    # Right DataFrame: selected tournament columns      #ADDED YEAR 12/8
+                left_on=["tournament_id", 'year'],							                                    	# Join key from results
+                right_on=["id", "year"],								                                			# Join key from tournaments
                 how="left"									                                    			# Left join to keep all results
     ).drop(columns=["id"])                                                                                  # Drop the redundant 'id' column
     return merged_results									                                				# Return enriched results DataFrame
@@ -1042,8 +945,8 @@ def combine_results_and_stats(df_stats: pd.DataFrame, df_results: pd.DataFrame) 
 
     df_results = reorder_players(df_stats, df_results)									                    # Align player order in results to match stats
 
-    merge_keys = ['tournament_id', 'match_id']											                    # Keys to merge on
-    merged_df = pd.merge(df_results, df_stats, on=merge_keys, how='left')				                	# Merge stats into results
+    merge_keys = ['tournament_id', 'match_id', 'p1_id', 'p2_id']											                    # Keys to merge on
+    merged_df = pd.merge(df_results, df_stats, on=merge_keys, how='inner')				                	# Merge stats into results
 
     merged_df = merged_df.loc[:, ~merged_df.columns.str.endswith('_y')]				                    	# Drop duplicated '_y' columns from merge
     merged_df.columns = merged_df.columns.str.replace('_x$', '', regex=True)		                		# Remove '_x' suffix from merged columns

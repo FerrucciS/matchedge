@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
 
     # --- 3.0. Get Live Rankings ---
-    df_top_500_players = get_live_player_rankings(500).filter(['Name', 'id']).rename(columns={'Name': 'name'})
+    df_top_players = get_live_player_rankings()
 
 
     # --- 4.0. Extract results URL's From Last Scraped Date Onwards ---
@@ -67,11 +67,11 @@ if __name__ == "__main__":
 
     # --- 7.0. Save ---
     df_tournaments.to_csv(f"s3://matchedge-pipeline/data/raw/All_Tournaments_{today}.csv", index=False)
-    df_top_500_players.to_csv(f"s3://matchedge-pipeline/data/raw/top_500_players_{today}.csv", index=False)
+    df_top_players.to_csv(f"s3://matchedge-pipeline/data/raw/top_players_{today}.csv", index=False)
     df_tournament_results.to_csv(f"s3://matchedge-pipeline/data/raw/all_results_{today}.csv", index=False)
     stats.to_csv(f"s3://matchedge-pipeline/data/raw/all_stats_GS_{today}.csv", index=False)
 
     df_tournaments.to_csv(f"/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/raw//All_Tournaments_{today}.csv", index=False)
-    df_top_500_players.to_csv(f"/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/raw/top_500_players_{today}.csv", index=False)
+    df_top_players.to_csv(f"/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/raw/top_players_{today}.csv", index=False)
     df_tournament_results.to_csv(f"/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/raw/all_results_{today}.csv", index=False)
     stats.to_csv(f"/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/raw/all_stats_GS_{today}.csv", index=False)

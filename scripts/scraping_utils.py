@@ -284,7 +284,7 @@ def get_tournament(tourn_archive_url, save_cache=False):
     return df_tournaments
 
 
-def get_live_player_rankings(num):
+def get_live_player_rankings():
     """
     Call ultimate-tennis API to get and return live ATP n-rankings
     
@@ -294,21 +294,37 @@ def get_live_player_rankings(num):
     Returns:
         DataFrame: Pandas DataFrame with columns name, rank, id, ....
     """
-    # --- 0.0 Call API --- 
-    API_url = f"https://ultimate-tennis1.p.rapidapi.com/live_leaderboard/{num}"
-    headers = {
-	"x-rapidapi-key": "e1a72ffc77msh18a3f47f7ef7be7p17df25jsnfdb07c74b0ae",
-	"x-rapidapi-host": "ultimate-tennis1.p.rapidapi.com"}
-    response = requests.get(API_url, headers=headers)
+    links = []
+    names = []
+    id = []
+    corrected_names = []
     
-    # --- 1.0 Read and Load Response ---
-    if response.status_code != 200:                     # Raises error if status_code != 200
-        raise Exception("API call failed")
-    data = response.text
-    data = json.loads(data)
-    data = data.get("data")
-    df_top_players = pd.DataFrame(data)
+    driver = create_driver()
+    driver.get("https://www.atptour.com/en/rankings/singles?rankRange=0-5000")                                                                      
+    time.sleep(5)
+    soup = BeautifulSoup(driver.page_source, "html.parser")   
     
+    # Find all <li> with class 'name center' and get the <a> href
+    for li in soup.find_all("li", class_="name center"):
+        a_tag = li.find("a")
+        if a_tag and "href" in a_tag.attrs:
+            links.append(a_tag["href"])
+    driver.quit() 
+
+    
+    for link in links:
+        parts = link.split("/")
+        names.append(parts[-3])
+        id.append(parts[-2])   
+    
+    for name in names:
+        name_parts = name.split("-")
+        first_name = name_parts[0][0].upper()
+        last_name = " ".join(name_parts[1:]).title()
+        name = first_name + ". " + last_name
+        corrected_names.append(name)
+        
+    df_top_players = pd.DataFrame({"name": corrected_names, "id": id})
     return df_top_players
     
 

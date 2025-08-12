@@ -3,7 +3,7 @@ from rapidfuzz import process, fuzz
 import numpy as np
 import s3fs
 from datetime import datetime
-from scripts.clean_data import clean_results_df, clean_stats_df, update_player_listings, clean_rankings, clean_tournaments, combine_results_and_tourn, combine_results_and_stats
+from scripts.clean_data import clean_results_df, clean_stats_df, clean_rankings, clean_tournaments, combine_results_and_tourn, combine_results_and_stats
 
 
 if __name__ == "__main__":
@@ -25,14 +25,14 @@ if __name__ == "__main__":
     
 
     # --- 2.0. Load recently raw scraped data ---
-    df_top = pd.read_csv(f"s3://matchedge-pipeline/data/raw/top_500_players_{file_date}.csv", sep=",")
+    df_top = pd.read_csv(f"s3://matchedge-pipeline/data/raw/top_players_{file_date}.csv", sep=",")
     df_all_tournament = pd.read_csv(f"s3://matchedge-pipeline/data/raw/All_Tournaments_{file_date}.csv", sep=",")
     df_results = pd.read_csv(f"s3://matchedge-pipeline/data/raw/all_results_{file_date}.csv", sep=",")
     df_all_stats = pd.read_csv(f's3://matchedge-pipeline/data/raw/all_stats_GS_{file_date}.csv', sep=",")
 
 
-    # --- 3.0. Update player archive ---
-    update_player_listings(df_live_rankings=df_top, df_results=df_results, df_stats=df_all_stats)
+    # --- 3.0. Update player archive OUTDATED--- 
+    # update_player_listings(df_live_rankings=df_top, df_results=df_results, df_stats=df_all_stats)
 
 
     # --- 4.0. Clean DataFrames ---
@@ -43,8 +43,8 @@ if __name__ == "__main__":
 
 
     # --- 5.0. Save Clean DataFrames ---
-    df_top.to_csv('/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/top_500_players.csv', sep=",", columns=df_top.columns, index=False)
-    df_top.to_csv("s3://matchedge-pipeline/data/clean/top_500_players.csv", sep=",", columns=df_top.columns, index=False)
+    df_top.to_csv('/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/top_players.csv', sep=",", columns=df_top.columns, index=False)
+    df_top.to_csv("s3://matchedge-pipeline/data/clean/top_players.csv", sep=",", columns=df_top.columns, index=False)
 
     df_all_tournament.to_csv(f'/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/all_tournaments_{file_date}.csv', sep=',', columns=df_all_tournament.columns, index=False)
     df_all_tournament.to_csv(f's3://matchedge-pipeline/data/clean/all_tournaments_{file_date}.csv', sep=',', columns=df_all_tournament.columns, index=False)
@@ -65,15 +65,17 @@ if __name__ == "__main__":
 
     merged_matches.to_csv(f'/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches_{file_date}.csv', sep=',', columns=merged_matches.columns, index=False)
     merged_matches.to_csv(f's3://matchedge-pipeline/data/clean/merged_matches_{file_date}.csv', sep=',', columns=merged_matches.columns, index=False)
+    
 
 
     # --- 8.0. Merge with Old DataFrame
     all_merged_matches = pd.read_csv("s3://matchedge-pipeline/data/clean/merged_matches.csv")
-    # all_merged_matches = pd.read_csv("/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches.csv")
+    
     # Create backup
-    all_merged_matches.to_csv(f"s3://matchedge-pipeline/data/clean/merged_matches_{file_date}.csv", sep=',', columns=all_merged_matches.columns, index=False)
-    all_merged_matches.to_csv(f"/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches_{file_date}.csv", sep=',', columns=all_merged_matches.columns, index=False)
+    all_merged_matches.to_csv(f"s3://matchedge-pipeline/data/clean/merged_matches_{file_date}_backup.csv", sep=',', columns=all_merged_matches.columns, index=False)
+    
 
     all_merged_matches = pd.concat([all_merged_matches, merged_matches], ignore_index=True)
     all_merged_matches.to_csv("s3://matchedge-pipeline/data/clean/merged_matches.csv", sep=',', columns=all_merged_matches.columns, index=False)
     all_merged_matches.to_csv("/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches.csv", sep=',', columns=all_merged_matches.columns, index=False)
+    
