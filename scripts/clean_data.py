@@ -428,7 +428,6 @@ def normalize_duration(dur):
         return np.nan                                                                                       # Unknown format
 
 
-
 def format_results_cols(df):
     """
     Cleans and formats the columns of a tennis match results DataFrame to ensure consistency
@@ -482,7 +481,7 @@ def format_results_cols(df):
         df[col] = df[col].astype(str).str.extract(r'(\d+)')                                                 # Extract only the score (drop tie-break notation)
         df[col] = df[col].astype('Int64')                                                                   # Convert to nullable int
 
-    df['match_date'] = pd.to_datetime(df['match_date'], format='%d-%m-%Y')                                  # Convert match date to datetime
+    df["match_date"] = pd.to_datetime(df["match_date"], format="%Y-%m-%d")                                  # Convert match date to datetime
     df["year"] = pd.to_datetime(df["match_date"], dayfirst=True).dt.year                                    # Extract year from match date
 
     return df
@@ -642,7 +641,7 @@ def insert_surface(df_tournaments):
     for tournament in df_tournaments['name'].to_list():
         name, score, ind = process.extractOne(tournament, list(tournament_surfaces.keys()))
         if score > 75:
-            surfaces.append(tournament_surfaces[name])
+            surfaces.append(tournament_surfaces[name].lower())
         else:
             print(f"Unmatched: {tournament} (Best guess: {name}, Score: {score})")
             surfaces.append(np.nan)
@@ -743,12 +742,12 @@ def split_ratio_stat(x):
         try:
             num, denom = map(float, x.strip().split('/'))													# Split string and convert to floats
             if denom == 0:																					# Avoid division by zero
-                return np.nan, 0
+                return 0, 0
             return round(num / denom, 2), denom																# Return decimal and denominator
         except:																								# Catch conversion errors
-            return np.nan, 0
+            return np.nan, np.nan                                                                           # Invalid fraction
     else:
-        return np.nan, 0																					# Return fallback if not a fraction
+        return np.nan, np.nan																				# Return fallback if not a fraction
 
 
 def split_small_frac(df, cols=cols2, new_cols=new_cols):

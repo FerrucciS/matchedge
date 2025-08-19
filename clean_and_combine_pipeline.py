@@ -45,15 +45,19 @@ if __name__ == "__main__":
     # --- 5.0. Save Clean DataFrames ---
     df_top.to_csv('/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/top_players.csv', sep=",", columns=df_top.columns, index=False)
     df_top.to_csv("s3://matchedge-pipeline/data/clean/top_players.csv", sep=",", columns=df_top.columns, index=False)
+    df_top.to_parquet("s3://matchedge-pipeline/data/clean/top_players.parquet", index=False)
 
     df_all_tournament.to_csv(f'/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/all_tournaments_{file_date}.csv', sep=',', columns=df_all_tournament.columns, index=False)
     df_all_tournament.to_csv(f's3://matchedge-pipeline/data/clean/all_tournaments_{file_date}.csv', sep=',', columns=df_all_tournament.columns, index=False)
+    df_all_tournament.to_parquet(f's3://matchedge-pipeline/data/clean/all_tournaments_{file_date}.parquet', index=False)
 
     df_results.to_csv(f'/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/all_results_{file_date}.csv', sep=',', columns=df_results.columns, index=False)
     df_results.to_csv(f's3://matchedge-pipeline/data/clean/all_results_{file_date}.csv', sep=',', columns=df_results.columns, index=False)
+    df_results.to_parquet(f's3://matchedge-pipeline/data/clean/all_results_{file_date}.parquet', index=False)
 
     df_all_stats.to_csv(f'/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/all_stats_{file_date}.csv', sep=',', columns=df_all_stats.columns, index=False)
     df_all_stats.to_csv(f"s3://matchedge-pipeline/data/clean/all_stats_{file_date}.csv", sep=',', columns=df_all_stats.columns, index=False)
+    df_all_stats.to_parquet(f"s3://matchedge-pipeline/data/clean/all_stats_{file_date}.parquet", index=False)
 
 
     # --- 6.0. Combine Results and Tournament
@@ -65,17 +69,19 @@ if __name__ == "__main__":
 
     merged_matches.to_csv(f'/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches_{file_date}.csv', sep=',', columns=merged_matches.columns, index=False)
     merged_matches.to_csv(f's3://matchedge-pipeline/data/clean/merged_matches_{file_date}.csv', sep=',', columns=merged_matches.columns, index=False)
-    
+    merged_matches.to_parquet(f's3://matchedge-pipeline/data/clean/merged_matches_{file_date}.parquet', index=False)
 
 
     # --- 8.0. Merge with Old DataFrame
-    all_merged_matches = pd.read_csv("s3://matchedge-pipeline/data/clean/merged_matches.csv")
+    all_merged_matches = pd.read_parquet("s3://matchedge-pipeline/data/clean/merged_matches.parquet")  
     
     # Create backup
     all_merged_matches.to_csv(f"s3://matchedge-pipeline/data/clean/merged_matches_{file_date}_backup.csv", sep=',', columns=all_merged_matches.columns, index=False)
+    all_merged_matches.to_parquet(f"s3://matchedge-pipeline/data/clean/merged_matches_{file_date}_backup.parquet", index=False)
     
 
-    all_merged_matches = pd.concat([all_merged_matches, merged_matches], ignore_index=True)
+    all_merged_matches = pd.concat([all_merged_matches, merged_matches], ignore_index=True)         #SAVE TO PARQUET
     all_merged_matches.to_csv("s3://matchedge-pipeline/data/clean/merged_matches.csv", sep=',', columns=all_merged_matches.columns, index=False)
     all_merged_matches.to_csv("/Users/samueleferrucci/Documents/Coding/Projects/Tennis ML/data/clean/merged_matches.csv", sep=',', columns=all_merged_matches.columns, index=False)
+    all_merged_matches.to_parquet("s3://matchedge-pipeline/data/clean/merged_matches.parquet", index=False)
     
