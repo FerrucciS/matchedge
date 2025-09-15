@@ -1,0 +1,14 @@
+# Ignore data and cache files
+/data/
+/cache/
+/__pycache__/
+/*.csv
+/*.parquet
+/*.zip
+/*.pickle
+/*.pkl
+/logs/
+.DS_Store
+notebooks/feature_engineering.ipynb
+Practical_approaches.pages
+Practical_approach.pages
